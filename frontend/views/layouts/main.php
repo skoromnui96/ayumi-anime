@@ -77,8 +77,10 @@ AppAsset::register($this);
                         </ul>
                         <div class="search-wrapper">
                             <div class="search">
-                                <button><img src="/public/img/icons/magnifying-glass.svg" alt=""></button>
-                                <input type="text" placeholder="Search...">
+                                <form action="<?=Url::to(['/video/search']) ?>" method="get">
+                                    <button><img src="/public/img/icons/magnifying-glass.svg" alt=""></button>
+                                    <input type="text" placeholder="Search..." name="search">
+                                </form>
                             </div>
                             <button class="quick-search-close"><img src="/public/img/icons/close-big.svg" alt=""></button>
                         </div>

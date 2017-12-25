@@ -24,11 +24,11 @@ use yii\helpers\Url;
                 <div class="col-md-3 col-sm-5">
                     <div class="video-info">
                         <h4 class="title"><?=$model->name ?></h4>
-                        <span class="pubdate"><i class="fa fa-calendar-o" aria-hidden="true"></i> 23.09.2017</span>
+                        <span class="pubdate"><i class="fa fa-calendar-o" aria-hidden="true"></i> <?=$model->getDate() ?></span>
                         <p class="title-text"><?=$model->description ?></p>
                         <ul class="rate">
                             <li class="views"><i class="fa fa-eye" aria-hidden="true"></i> <?=$model->views ?> views</li>
-                            <li><button class="rate-button" id="like"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> <span id="counter-like">0</span></button></li>
+                            <li><button class="rate-button" value="like" id="like"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> <span id="counter-like"><?=$model->like ?></span></button></li>
                             <li><button class="rate-button" id="dislike"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i> <span id="counter-dislike">0</span></button></li>
                         </ul>
                         <ul class="price">
@@ -81,15 +81,15 @@ use yii\helpers\Url;
                             </a>
                         </div>
                         <div class="video-description">
-                            <h4 class="title"><a href="<?= Url::to(['video/single', 'id' => $item->id ]); ?>">Scarlett Knightley - Passionate Love Making After Being Away</a></h4>
+                            <h4 class="title"><a href="<?= Url::to(['video/single', 'id' => $item->id ]); ?>"><?= $item->name ?></a></h4>
                             <div class="video-info">
                                 <ul>
                                     <li class="old-price">$<?=$item->old_price?></li>
                                     <li class="new-price">$<?=$item->price ?> (SAVE 20%)</li>
-                                    <li class="pubdate"><img src="/public/img/icons/calendar.svg" alt=""> 23.09.2017</li>
+                                    <li class="pubdate"><img src="/public/img/icons/calendar.svg" alt=""> <?= $item->getDate() ?></li>
                                 </ul>
                             </div>
-                            <button class="button bordered">Add to cart</button>
+                            <?= BuyButton::widget(['model' => $model, 'text' => 'Add to cart']);?>
                         </div>
                     </article>
                 </div>

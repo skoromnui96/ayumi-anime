@@ -19,7 +19,7 @@ return [
     'components' => [
         'formatter' => [
             'class' => 'yii\i18n\Formatter',
-            'defaultTimeZone' => 'America/Phoenix',
+            'defaultTimeZone' => 'America/Los_Angeles',
             'timeZone' => 'GMT-5',
             'dateFormat' => 'MMMM d, yyyy',
             'datetimeFormat' => 'd-M-Y H:i:s',

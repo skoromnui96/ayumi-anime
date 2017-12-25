@@ -98,7 +98,7 @@ use yii\widgets\LinkPager;
                             </a>
                         </div>
                         <div class="video-description">
-                            <h4 class="name"><a href="<?= Url::to(['news/single', 'id' => $item->id ]); ?>"><?=$item->name ?></a></h4>
+                            <h4 class="name"><a href="<?= Url::to(['video/single', 'id' => $item->id ]); ?>"><?=$item->name ?></a></h4>
                             <div class="video-info">
                                 <ul>
                                     <li class="old-price">$<?=$item->old_price ?></li>
