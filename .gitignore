@@ -1,0 +1,8 @@
+.idea/*
+backend/runtime/URI/
+backend/runtime/debug/*
+backend/web/assets/*
+frontend/runtime/debug/*
+
+
+

@@ -1,0 +1,72 @@
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
+	margin: 0 auto
+
+.no-padding
+	padding-left: 0
+	padding-right: 0
+
+.line
+	position: relative
+	z-index: 9
+.line:after
+	content: ''
+	position: absolute
+	bottom: 2px
+	left: 0
+	width: 100%
+	height: 7px
+	background-color: #F6D4DC
+	z-index: -1
+	transition: all .4s
+
+.line-hover:after
+	bottom: -9px
+	opacity: 0
+
+.line-hover:hover:after
+	bottom: 2px
+	opacity: 1
+
+.is-locked
+	user-select: none
+
+	.img-wrapper, .video-wrapper
+		pointer-events: none
+		position: relative
+		overflow: hidden
+		.img-responsive, 
+		.play-icon
+			filter: blur(4px)
+			overflow: hidden
+
+	.img-wrapper:after, .video-wrapper:after
+		content: '\f023'
+		width: 45px
+		height: 45px
+		line-height: 45px
+		font-family: 'FontAwesome'
+		text-align: center
+		font-size: 32px
+		color: #fff
+		position: absolute
+		left: 50%
+		top: 50%
+		transform: translateX(-50%) translateY(-50%)
+
+	.description-text,
+	.video-description
+		position: relative
+		.title
+			a
+				pointer-events: none
+		.follow
+			display: inline-block !important
+			width: 100%
+			margin: 0
+			span
+				font-size: 16px
+				font-weight: 600
+				color: $accent

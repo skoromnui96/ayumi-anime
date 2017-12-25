@@ -1,0 +1,964 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	/**/
+	header
+		.navigation
+			.main-navigation
+				ul.nav-menu
+					li
+						margin-right: 10px
+					li:after
+						right: -5px
+
+
+	.s-main-heading
+		.first
+			.container
+				.title-text
+					margin-right: 0
+
+
+	.s-about-me
+		.title-text
+			h1
+				display: block
+				width: 100%
+
+
+	.s-item-card
+		article.single-item
+			.item-description
+				padding: 0
+				.properties
+					width: 75%
+
+
+	.s-join
+		.account-creating
+			.create-an-accont
+				padding-left: 35px
+				padding-right: 35px
+			.chose-membership
+				height: 100%
+				.payment
+					padding: 0 10px
+
+
+	.s-news-inside
+		.popular-posts
+			article.related-video-product
+				.description-text
+					padding: 0 5px
+
+
+	.s-video-inside
+		article.main-video
+			.video-info
+				.rate
+					font-size: 11px
+					li
+						.rate-button
+							.fa
+								font-size: 14px
+					.views
+						margin-right: 0
+				.button
+					padding: 0 10px
+					font-size: 12px
+
+
+	.s-ordering
+		.shop
+			.sidebar
+				.ordering-steps
+					li a h3
+						font-size: 20px
+				.ordering-form
+					label
+						font-size: 12px
+
+
+	.s-gallery
+		.gallery-item
+			margin: 15px 0
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	/**/
+	.s-main-heading
+		.slick-prev
+			left: 40px
+		.slick-next
+			right: 40px
+		.first
+			min-height: 345px
+			.container
+				.title-text
+					max-width: 50%
+					margin-top: 110px
+					h1
+						width: auto
+						margin: 0
+						font-size: 45px
+						text-align: center
+						span
+							width: 100%
+							float: none
+							margin: 0
+						.anime
+							margin-top: 0
+							padding-left: 90px
+
+
+	article.video-product
+		.video-wrapper
+			.topline
+				.hd
+					width: 60px
+		.video-description
+			.video-info
+				text-align: center
+				ul
+					.pubdate
+						display: inline-block
+						width: 100%
+						float: none
+
+
+	.section-title
+		p
+			width: 100%
+
+
+	.s-last-videos
+		padding: 40px 0
+		.tabs
+			.tabs-caption
+				margin-bottom: 20px
+				li
+					margin: 0 15px
+					h3
+						font-size: 24px
+
+
+	.s-top-rated-videos
+		padding: 40px 0
+
+	
+	.s-last-broadcast
+		padding: 40px 0
+		.related-videos
+			article.related-video-product
+				max-width: 160px
+				margin: 0 auto
+				text-align: center
+				.img-wrapper
+					.img-responsive
+						margin: 0 auto
+				.description-text
+					padding: 0
+
+
+	.s-shop, .s-ordering
+		.user-panel
+			.section-title
+				h4
+					font-size: 16px
+			.view:before,
+			.sort:before
+				margin-right: 0
+			.btn-panel
+				li
+					margin-right: 5px
+			.sort
+				.dropdown
+					padding: 0 10px
+		.shop
+			article.item-list
+				.item-description
+					.properties
+						li
+							margin-bottom: 5px
+							line-height: 1.2
+				.item-description,
+				.button
+					margin-top: 0
+				.button
+					margin-top: 10px
+
+
+	.s-404
+		justify-content: flex-end
+		height: 400px
+		background-position: 85% 50%
+		.section-title
+			margin: 0
+
+
+	.s-about-me
+		.title-text
+			h1
+				font-size: 48px
+
+
+	.s-item-card
+		article.single-item
+			.item-description
+				.properties
+					width: 100%
+
+
+	.s-join
+		.account-creating
+			.submit
+				margin-bottom: 10px
+				bottom: 0
+				left: 0
+				.button
+					display: inline-block
+					margin-bottom: 5px
+			.fill
+				padding-top: 25px
+				padding-bottom: 25px
+			.create-an-accont
+				padding-left: 50px
+				padding-right: 50px
+			.chose-membership
+				height: 100%
+				padding-bottom: 110px
+				.payment
+					padding: 0 30px
+
+
+	.s-sing-in
+		.account-creating 
+			.submit
+				margin-top: 30px
+				.button
+					bottom: 55px
+
+
+	.s-account
+		background-position: 25% 50%
+		.account-creating
+			.chose-membership
+				height: auto
+				min-height: auto
+
+
+	.s-news-inside
+		.popular-posts
+			border-top: none
+			border-left: none
+			.direction-btn-vertical
+				margin-top: -30px
+			article.related-video-product
+				border-top: 1px solid #E0E0E0
+				border-bottom: none
+				.description-text
+					padding: 0 5px
+
+
+	.s-video-inside
+		article.main-video
+			.video-wrapper
+				height: 300px
+			.video-info
+				.rate
+					text-align: center
+					font-size: 11px
+					li
+						font-size: 14px
+					.views
+						margin-right: 15px
+				.button
+					font-size: 14px
+					padding: 0 15px
+
+
+	.s-ordering
+		.shop
+			.total-count
+				ul li
+					padding-left: 0
+					padding: 0 15px
+					span
+						margin-right: 0
+
+
+	.s-gallery
+		.gallery-item
+			.img-wrapper
+				.item-description
+					.botline,
+					.topline
+						span
+							font-size: 12px
+					.content
+						.title
+							font-size: 14px
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px)
+	/**/
+	header
+		.navigation
+			.col-sm-12
+				position: relative
+				padding: 0
+			.logo
+				max-width: 200px
+				width: 100%
+				margin-left: 20px
+			.menu-open
+				display: inline-block
+				position: absolute
+				transform: translateY(-50%)
+				top: 50%
+				right: 20px
+				font-size: 28px
+				line-height: 1
+
+			.main-navigation
+				display: none
+				width: 100%
+				height: auto
+				padding: 25px 0
+				color: #fff
+				background-color: #000
+				position: absolute
+				left: 0
+				top: 11px
+				z-index: 99999
+				ul.nav-menu
+					display: block
+					width: 100%
+					height: auto
+					li:after
+						display: none
+					li
+						display: inline-block
+						width: 100%
+						margin: 0
+						text-align: center
+						a
+							display: inline-block
+							width: 100%
+							color: #fff
+						span
+							display: none
+					.show-more
+						overflow: visible
+						> a
+							display: none
+						.more
+							position: relative
+							left: 0
+							top: 0
+							width: 100%
+							height: auto
+							padding: 0
+							color: #fff
+							background-color: #000
+							border: none
+							box-shadow: none
+							transform: skewX(0deg) translateY(0px)
+							z-index: 1
+							ul
+								display: inline-block
+								width: 100%
+								transform: skewX(0deg)
+								li
+									display: inline-block
+									width: 100%
+									text-align: center
+				ul.search-nav,
+				.search-wrapper
+					display: none
+
+
+	.s-main-heading
+		.first
+			background-position: 35% 50%
+			.container
+				.title-text
+					margin-right: 50px
+					h1
+						span
+							text-align: left
+						.anime
+							padding-left: 40px
+					p
+						display: none
+
+
+	article.video-product
+		max-width: 350px
+		margin: 0 auto
+		margin-bottom: 30px
+		.video-wrapper
+			.topline
+				.hd
+					width: 100px
+		.video-description
+			.video-info
+				text-align: center
+				ul
+					text-align: left
+					.pubdate
+						width: auto
+						text-align: right
+						float: right
+
+
+	.s-subscribe:before
+		width: 100%
+		height: 500px
+		background-position: 50% 100%
+	.s-subscribe
+		padding-bottom: 0
+		background-image: none
+		.col-sm-5
+			padding: 0
+		.subscribe-us
+			margin-top: 50px
+			padding: 115px 60px
+			background: url(../img/subscribe-bg.jpg) 100% 50% no-repeat
+			background-size: cover
+
+
+	.s-last-broadcast
+		padding: 40px 0
+		.related-videos
+			article.related-video-product
+				max-width: 460px
+				width: 100%
+				text-align: left
+				.img-wrapper
+					.img-responsive
+						margin: 0
+						float: right
+				.description-text
+					padding-left: 15px
+
+
+	footer
+		text-align: center
+		.social, .copy
+			text-align: center
+
+
+	.s-shop, .s-ordering
+		.user-panel
+			.btn-panel,
+			.sort,
+			.cart-button
+				height: 40px
+				margin: 10px 0
+				line-height: 40px
+			.section-title
+				h4
+			.btn-panel
+				li
+			.sort
+				.dropdown
+		.shop
+			.row
+				position: relative
+				z-index: 1
+				> .col-md-3
+					background-color: #fff
+					z-index: 9
+				> .col-md-9
+					padding: 0
+					border-left: none
+			.sidebar
+				padding-right: 0
+				.filter
+					padding: 10px
+					.cat-content
+						label
+							width: 32.7%
+							margin: 0
+						.underline:after
+							width: 89%
+			article.item-card
+				max-width: 256px
+				width: 100%
+				margin: 10px auto
+			article.item-list
+				border-bottom: none
+				padding-bottom: 0
+				.col-md-4
+					padding-left: 15px
+				.item-description
+					max-width: 100%
+					.properties
+						li
+							display: inline-block
+							width: 100%
+							float: none
+
+
+	.s-about-me
+		background-position: 65% 50%
+
+
+	.s-item-card
+		margin: 30px 0
+		article.single-item
+			max-width: 400px
+			margin: 0 auto
+			padding-top: 0
+			.item-count
+				display: none
+
+	.s-join
+		.title-text
+			padding: 25px 0
+			h1
+				font-size: 36px
+		.account-creating
+			box-shadow: none
+
+
+	.s-news-inside
+		.col-md-4
+			padding: 0
+
+
+	.s-videos, .s-gallery
+		.user-panel 
+			.sort
+				padding-left: 0
+				text-align: left
+				.dropdown:before
+					display: none
+				.categories
+					float: none
+
+
+	.s-video-inside
+		article.main-video:before
+			width: 100%
+			height: 100%
+		article.main-video
+			.video-info
+				padding: 15px 
+				.rate
+					width: auto
+					float: left
+					font-size: 16px
+				.price
+					width: auto
+					float: right
+			.video-description
+				padding: 15px
+
+
+	.s-ordering
+		.shop
+			.title
+				margin-top: 25px
+				margin-right: 0
+				text-align: center
+
+
+	.s-gallery
+		.gallery-item
+			max-width: 350px
+			width: 100%
+			margin: 10px auto
+	.fancybox-caption
+		.botline
+			display: inline-block
+			width: 100%
+			span
+				font-size: 12px
+			.likes
+				margin-right: 10px
+
+
+	.adult-modal
+		.content
+			width: 55%
+			margin-right: 0
+			padding-top: 30px
+			.submit
+				margin: 15px 0
+
+
+/* Small Devices, Tablets 2 */
+@media only screen and (max-width : 640px)
+	/**/
+	.s-shop, .s-ordering
+		padding: 20px 0
+		.user-panel
+			padding-bottom: 15px
+			text-align: center
+			.section-title
+				margin-bottom: 15px
+				padding: 0
+			.no-padding
+				max-width: 300px
+				width: 100%
+				margin: 0 auto
+				padding: 0 15px
+				float: none
+			ul, .cart-button
+				margin: 0 !important
+			.view:before,
+			.sort:before
+				float: left
+			.view
+				li
+					margin: 0 10px
+					float: right
+				li:first-child
+					margin-right: 0
+			.sort li
+				float: right
+
+
+	.s-404
+		background-position: 50% 50%
+		.section-title
+			max-width: 310px
+			padding-right: 10px
+			h1
+				font-size: 22px
+
+
+	.s-about-me
+		padding: 45px 0
+		background-image: none
+		background-color: #EEEEEC
+		.col-xs-7
+			width: 100%
+			float: none
+		.title-text
+			margin-bottom: 45px
+			h1
+				font-size: 62px
+
+
+	.s-news-inside
+		.popular-posts
+			.col-md-12
+				width: 100%
+				float: none
+			.related-videos
+				.col-md-12:first-child
+					article.related-video-product
+						border-top: 1px solid #E0E0E0
+				article.related-video-product
+					border: none
+					.img-wrapper
+						.img-responsive
+							margin: 0 auto
+
+
+	.news-rating
+		ul
+			display: inline-block
+			width: 100%
+			li
+				display: inline-block
+				width: 50%
+				float: left
+				text-align: center
+
+
+	.section-title
+		margin-bottom: 15px
+		h4
+			letter-spacing: 2px
+			font-size: 14px
+		h2
+			font-size: 22px
+
+
+	.s-news
+		padding: 25px 0
+
+
+	.s-videos, .s-gallery
+		padding: 25px 0
+		.user-panel 
+			margin-bottom: 30px
+			.sort
+				min-height: 95px
+				margin: 0
+				.dropdown
+					display: inline-block
+					width: 50%
+					margin-right: 0
+					margin: 5px 0
+					text-align: center
+					float: left
+					.dropdown-menu
+						width: 100%
+
+
+	.s-ordering
+		.shop
+			article.item-list
+				.title
+					.price
+						display: inline-block
+						width: 100%
+						float: none
+						text-align: left
+
+
+	.adult-modal
+		height: auto
+		min-height: auto
+		background-image: none
+		.content
+			width: 100%
+			margin-right: 0
+			padding: 15px
+			padding-bottom: 0
+			.submit
+				margin: 15px 0
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	/**/
+	header
+		.broadcast-announcement
+			text-align: left
+			span.date
+				display: none
+
+
+	.s-main-heading
+		.slick-prev
+			left: 15px
+		.slick-next
+			right: 15px
+		.first
+			background-position: 40% 50%
+			.container
+				.title-text
+					margin-right: 0
+					h1
+						.anime
+							padding-left: 0
+
+
+	.s-videos, .s-gallery
+		.tabs
+			.tabs-caption
+				li
+					margin: 0 5px
+					h3
+						font-size: 20px
+
+
+	.s-subscribe:before
+		background-position: 65% 50%
+	.s-subscribe
+		.col-sm-5
+			margin-top: 35px
+		.subscribe-us
+			padding-left: 10px
+			padding-right: 10px
+			padding-top: 100px
+
+
+	.s-last-broadcast
+		.video-wrapper
+			.video-description
+				padding: 5px 10px
+				left: 10%
+				max-width: 80%
+				.title
+					font-size: 13px
+				ul
+					font-size: 11px
+
+
+	.s-join-now
+		h3
+			font-size: 26px
+
+
+	.s-shop, .s-ordering
+		.shop
+			.sidebar
+				.filter
+					.cat-content
+						label
+							width: 49%
+							margin: 0
+						.underline:after
+							width: 89%
+			.col-sm-8
+				.col-xs-6
+					width: 100%
+					padding: 0
+					float: none
+			article.item-list
+				display: block
+				max-width: 256px
+				margin: 10px auto
+				.col-md-4
+					padding-left: 0
+				.title
+					padding: 0
+				.button
+					width: 100%
+					float: none
+
+
+	.s-about-me
+		.title-text
+			h1
+				font-size: 48px
+				span
+					width: 100%
+				.anime
+					margin: 0
+
+
+	.s-join
+		.title-text
+			h1
+				font-size: 28px
+		.account-creating
+			.fill
+				padding-top: 25px
+				padding-bottom: 25px
+				h3
+					font-size: 22px
+			.create-an-accont
+				padding-left: 25px
+				padding-right: 25px
+				.checkbox-group
+					.checkbox
+						margin-left: 16px !important
+			.chose-membership
+				padding-bottom: 110px
+				.payment
+					padding: 0 15px	
+					ul li
+						padding: 10px 5px
+						p.price
+							padding-right: 0
+							width: 45%
+							.main
+								font-size: 24px
+							.side-content
+								left: 45px
+						p.membership
+							width: 55%
+							padding-left: 0
+							padding-top: 5px
+							padding-bottom: 5px
+							border-left: none
+							.plan
+								font-size: 10px
+
+
+	.s-news-inside
+		.news-content
+			.left-img
+				padding: 0
+				float: none
+		.popular-posts
+			padding: 15px 10px
+
+
+	.news-rating
+		ul li a
+			font-size: 12px
+
+
+	.s-news
+		.user-panel
+			.sort:before
+				margin-right: 0
+			.sort
+				.dropdown
+					margin-right: 0
+					padding: 0 10px
+
+
+	.breadcrumbs
+		ul
+			height: auto
+			line-height: 1.5
+			li:nth-child(3)
+				width: 100%
+
+
+	.s-video-inside
+		article.main-video
+			.video-info
+				.rate, .price
+					width: 100%
+					float: none
+					text-align: center
+			.subscribe
+				text-align: center
+			.video-description
+				padding: 15px
+
+
+	.adult-modal
+		.content
+			.submit
+				margin: 10px 0
+				.button
+					width: 100%
+					margin: 5px 0
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+	.s-last-broadcast
+		.video-wrapper
+			.video-description
+				ul
+					font-size: 10px
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 767px)
+	/**/
+	header
+		.navigation
+			.main-navigation
+					display: block !important
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+
