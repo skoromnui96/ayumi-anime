@@ -801,3 +801,2189 @@ $_SERVER = [
     ]
     'argc' => 2
 ]
+2017-12-26 10:18:52 [-][-][-][error][Error] Error: Class 'console\models\SendSubscr' not found in /home/max/projects/ayumi-anime/console/controllers/SendController.php:14
+Stack trace:
+#0 [internal function]: console\controllers\SendController->actionMail()
+#1 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Controller.php(144): yii\base\Controller->runAction('', Array)
+#4 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#5 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('send', Array)
+#6 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('send', Array)
+#7 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 /home/max/projects/ayumi-anime/yii(27): yii\base\Application->run()
+#9 {main}
+2017-12-26 10:18:52 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_VTNR' => '7'
+    'XDG_SESSION_ID' => 'c2'
+    'XDG_GREETER_DATA_DIR' => '/var/lib/lightdm-data/max'
+    'CLUTTER_IM_MODULE' => 'xim'
+    'GIO_LAUNCHED_DESKTOP_FILE_PID' => '3005'
+    'SESSION' => 'ubuntu'
+    'GPG_AGENT_INFO' => '/home/max/.gnupg/S.gpg-agent:0:1'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'DERBY_HOME' => '/usr/lib/jvm/java-8-oracle/db'
+    'QT_LINUX_ACCESSIBILITY_ALWAYS_ON' => '1'
+    'GNOME_KEYRING_CONTROL' => ''
+    'UPSTART_SESSION' => 'unix:abstract=/com/ubuntu/upstart-session/1000/2453'
+    'GTK_MODULES' => 'gail:atk-bridge:unity-gtk-module'
+    'USER' => 'max'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'QT_ACCESSIBILITY' => '1'
+    'XDG_SESSION_PATH' => '/org/freedesktop/DisplayManager/Session0'
+    'XDG_SEAT_PATH' => '/org/freedesktop/DisplayManager/Seat0'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'SESSION_MANAGER' => 'local/comp:@/tmp/.ICE-unix/2692,unix/comp:/tmp/.ICE-unix/2692'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'GIO_LAUNCHED_DESKTOP_FILE' => '/home/max/.local/share/applications/jetbrains-phpstorm.desktop'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'PATH' => '/home/max/bin:/home/max/.local/bin:/home/max/bin:/home/max/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin'
+    'QT_QPA_PLATFORMTHEME' => 'appmenu-qt5'
+    'QT_IM_MODULE' => 'ibus'
+    'XDG_SESSION_TYPE' => 'x11'
+    'PWD' => '/home/max/projects/ayumi-anime'
+    'JOB' => 'unity-settings-daemon'
+    'JAVA_HOME' => '/usr/lib/jvm/java-8-oracle'
+    'XMODIFIERS' => '@im=ibus'
+    'GNOME_KEYRING_PID' => ''
+    'LANG' => 'ru_UA.UTF-8'
+    'GDM_LANG' => 'ru'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'COMPIZ_CONFIG_PROFILE' => 'ubuntu'
+    'IM_CONFIG_PHASE' => '1'
+    'GDMSESSION' => 'ubuntu'
+    'SESSIONTYPE' => 'gnome-session'
+    'GTK2_MODULES' => 'overlay-scrollbar'
+    'HOME' => '/home/max'
+    'XDG_SEAT' => 'seat0'
+    'SHLVL' => '1'
+    'LANGUAGE' => 'ru_UA:ru'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'UPSTART_INSTANCE' => ''
+    'UPSTART_EVENTS' => 'xsession started'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'LOGNAME' => 'max'
+    'COMPIZ_BIN_PATH' => '/usr/bin/'
+    'J2SDKDIR' => '/usr/lib/jvm/java-8-oracle'
+    'QT4_IM_MODULE' => 'xim'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:abstract=/tmp/dbus-GPrCCOTCHf'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/var/lib/snapd/desktop'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'UPSTART_JOB' => 'unity7'
+    'INSTANCE' => ''
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'DISPLAY' => ':0'
+    'J2REDIR' => '/usr/lib/jvm/java-8-oracle/jre'
+    'XDG_CURRENT_DESKTOP' => 'Unity'
+    'GTK_IM_MODULE' => 'ibus'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XAUTHORITY' => '/home/max/.Xauthority'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1514283532.9697
+    'REQUEST_TIME' => 1514283532
+    'argv' => [
+        0 => 'yii'
+        1 => 'send'
+    ]
+    'argc' => 2
+]
+2017-12-26 10:20:59 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ayumi_anime.send_subscr' doesn't exist in /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/db/Command.php:1067
+Stack trace:
+#0 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/db/Command.php(1067): PDOStatement->execute()
+#1 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/db/Command.php(386): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/db/Query.php(217): yii\db\Command->queryAll()
+#3 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all(NULL)
+#4 /home/max/projects/ayumi-anime/common/models/SendSubscr.php(36): yii\db\ActiveQuery->all()
+#5 /home/max/projects/ayumi-anime/console/controllers/SendController.php(14): common\models\SendSubscr->send()
+#6 [internal function]: console\controllers\SendController->actionMail()
+#7 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Controller.php(144): yii\base\Controller->runAction('', Array)
+#10 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#11 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('send', Array)
+#12 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('send', Array)
+#13 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 /home/max/projects/ayumi-anime/yii(27): yii\base\Application->run()
+#15 {main}
+
+Next yii\db\Exception: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ayumi_anime.send_subscr' doesn't exist
+The SQL being executed was: SELECT * FROM `send_subscr` ORDER BY `video_id` DESC LIMIT 1 in /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/db/Schema.php:595
+Stack trace:
+#0 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/db/Command.php(1082): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/db/Command.php(386): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/db/Query.php(217): yii\db\Command->queryAll()
+#3 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all(NULL)
+#4 /home/max/projects/ayumi-anime/common/models/SendSubscr.php(36): yii\db\ActiveQuery->all()
+#5 /home/max/projects/ayumi-anime/console/controllers/SendController.php(14): common\models\SendSubscr->send()
+#6 [internal function]: console\controllers\SendController->actionMail()
+#7 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Controller.php(144): yii\base\Controller->runAction('', Array)
+#10 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#11 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('send', Array)
+#12 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('send', Array)
+#13 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 /home/max/projects/ayumi-anime/yii(27): yii\base\Application->run()
+#15 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'ayumi_anime.send_subscr' doesn't exist
+)
+
+2017-12-26 10:20:59 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_VTNR' => '7'
+    'XDG_SESSION_ID' => 'c2'
+    'XDG_GREETER_DATA_DIR' => '/var/lib/lightdm-data/max'
+    'CLUTTER_IM_MODULE' => 'xim'
+    'GIO_LAUNCHED_DESKTOP_FILE_PID' => '3005'
+    'SESSION' => 'ubuntu'
+    'GPG_AGENT_INFO' => '/home/max/.gnupg/S.gpg-agent:0:1'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'DERBY_HOME' => '/usr/lib/jvm/java-8-oracle/db'
+    'QT_LINUX_ACCESSIBILITY_ALWAYS_ON' => '1'
+    'GNOME_KEYRING_CONTROL' => ''
+    'UPSTART_SESSION' => 'unix:abstract=/com/ubuntu/upstart-session/1000/2453'
+    'GTK_MODULES' => 'gail:atk-bridge:unity-gtk-module'
+    'USER' => 'max'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'QT_ACCESSIBILITY' => '1'
+    'XDG_SESSION_PATH' => '/org/freedesktop/DisplayManager/Session0'
+    'XDG_SEAT_PATH' => '/org/freedesktop/DisplayManager/Seat0'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'SESSION_MANAGER' => 'local/comp:@/tmp/.ICE-unix/2692,unix/comp:/tmp/.ICE-unix/2692'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'GIO_LAUNCHED_DESKTOP_FILE' => '/home/max/.local/share/applications/jetbrains-phpstorm.desktop'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'PATH' => '/home/max/bin:/home/max/.local/bin:/home/max/bin:/home/max/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin'
+    'QT_QPA_PLATFORMTHEME' => 'appmenu-qt5'
+    'QT_IM_MODULE' => 'ibus'
+    'XDG_SESSION_TYPE' => 'x11'
+    'PWD' => '/home/max/projects/ayumi-anime'
+    'JOB' => 'unity-settings-daemon'
+    'JAVA_HOME' => '/usr/lib/jvm/java-8-oracle'
+    'XMODIFIERS' => '@im=ibus'
+    'GNOME_KEYRING_PID' => ''
+    'LANG' => 'ru_UA.UTF-8'
+    'GDM_LANG' => 'ru'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'COMPIZ_CONFIG_PROFILE' => 'ubuntu'
+    'IM_CONFIG_PHASE' => '1'
+    'GDMSESSION' => 'ubuntu'
+    'SESSIONTYPE' => 'gnome-session'
+    'GTK2_MODULES' => 'overlay-scrollbar'
+    'HOME' => '/home/max'
+    'XDG_SEAT' => 'seat0'
+    'SHLVL' => '1'
+    'LANGUAGE' => 'ru_UA:ru'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'UPSTART_INSTANCE' => ''
+    'UPSTART_EVENTS' => 'xsession started'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'LOGNAME' => 'max'
+    'COMPIZ_BIN_PATH' => '/usr/bin/'
+    'J2SDKDIR' => '/usr/lib/jvm/java-8-oracle'
+    'QT4_IM_MODULE' => 'xim'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:abstract=/tmp/dbus-GPrCCOTCHf'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/var/lib/snapd/desktop'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'UPSTART_JOB' => 'unity7'
+    'INSTANCE' => ''
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'DISPLAY' => ':0'
+    'J2REDIR' => '/usr/lib/jvm/java-8-oracle/jre'
+    'XDG_CURRENT_DESKTOP' => 'Unity'
+    'GTK_IM_MODULE' => 'ibus'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XAUTHORITY' => '/home/max/.Xauthority'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1514283659.0926
+    'REQUEST_TIME' => 1514283659
+    'argv' => [
+        0 => 'yii'
+        1 => 'send'
+    ]
+    'argc' => 2
+]
+2017-12-26 10:21:31 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "migtate". in /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migtate', Array)
+#1 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migtate', Array)
+#2 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /home/max/projects/ayumi-anime/yii(27): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migtate". in /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migtate', Array)
+#1 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /home/max/projects/ayumi-anime/yii(27): yii\base\Application->run()
+#3 {main}
+2017-12-26 10:21:31 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_VTNR' => '7'
+    'XDG_SESSION_ID' => 'c2'
+    'XDG_GREETER_DATA_DIR' => '/var/lib/lightdm-data/max'
+    'CLUTTER_IM_MODULE' => 'xim'
+    'GIO_LAUNCHED_DESKTOP_FILE_PID' => '3005'
+    'SESSION' => 'ubuntu'
+    'GPG_AGENT_INFO' => '/home/max/.gnupg/S.gpg-agent:0:1'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'DERBY_HOME' => '/usr/lib/jvm/java-8-oracle/db'
+    'QT_LINUX_ACCESSIBILITY_ALWAYS_ON' => '1'
+    'GNOME_KEYRING_CONTROL' => ''
+    'UPSTART_SESSION' => 'unix:abstract=/com/ubuntu/upstart-session/1000/2453'
+    'GTK_MODULES' => 'gail:atk-bridge:unity-gtk-module'
+    'USER' => 'max'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'QT_ACCESSIBILITY' => '1'
+    'XDG_SESSION_PATH' => '/org/freedesktop/DisplayManager/Session0'
+    'XDG_SEAT_PATH' => '/org/freedesktop/DisplayManager/Seat0'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'SESSION_MANAGER' => 'local/comp:@/tmp/.ICE-unix/2692,unix/comp:/tmp/.ICE-unix/2692'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'GIO_LAUNCHED_DESKTOP_FILE' => '/home/max/.local/share/applications/jetbrains-phpstorm.desktop'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'PATH' => '/home/max/bin:/home/max/.local/bin:/home/max/bin:/home/max/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin'
+    'QT_QPA_PLATFORMTHEME' => 'appmenu-qt5'
+    'QT_IM_MODULE' => 'ibus'
+    'XDG_SESSION_TYPE' => 'x11'
+    'PWD' => '/home/max/projects/ayumi-anime'
+    'JOB' => 'unity-settings-daemon'
+    'JAVA_HOME' => '/usr/lib/jvm/java-8-oracle'
+    'XMODIFIERS' => '@im=ibus'
+    'GNOME_KEYRING_PID' => ''
+    'LANG' => 'ru_UA.UTF-8'
+    'GDM_LANG' => 'ru'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'COMPIZ_CONFIG_PROFILE' => 'ubuntu'
+    'IM_CONFIG_PHASE' => '1'
+    'GDMSESSION' => 'ubuntu'
+    'SESSIONTYPE' => 'gnome-session'
+    'GTK2_MODULES' => 'overlay-scrollbar'
+    'HOME' => '/home/max'
+    'XDG_SEAT' => 'seat0'
+    'SHLVL' => '1'
+    'LANGUAGE' => 'ru_UA:ru'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'UPSTART_INSTANCE' => ''
+    'UPSTART_EVENTS' => 'xsession started'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'LOGNAME' => 'max'
+    'COMPIZ_BIN_PATH' => '/usr/bin/'
+    'J2SDKDIR' => '/usr/lib/jvm/java-8-oracle'
+    'QT4_IM_MODULE' => 'xim'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:abstract=/tmp/dbus-GPrCCOTCHf'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/var/lib/snapd/desktop'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'UPSTART_JOB' => 'unity7'
+    'INSTANCE' => ''
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'DISPLAY' => ':0'
+    'J2REDIR' => '/usr/lib/jvm/java-8-oracle/jre'
+    'XDG_CURRENT_DESKTOP' => 'Unity'
+    'GTK_IM_MODULE' => 'ibus'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XAUTHORITY' => '/home/max/.Xauthority'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1514283691.7321
+    'REQUEST_TIME' => 1514283691
+    'argv' => [
+        0 => 'yii'
+        1 => 'migtate'
+    ]
+    'argc' => 2
+]
+2017-12-26 10:21:59 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined offset: 0 in /home/max/projects/ayumi-anime/common/models/SendSubscr.php:37
+Stack trace:
+#0 /home/max/projects/ayumi-anime/common/models/SendSubscr.php(37): yii\base\ErrorHandler->handleError(8, 'Undefined offse...', '/home/max/proje...', 37, Array)
+#1 /home/max/projects/ayumi-anime/console/controllers/SendController.php(14): common\models\SendSubscr->send()
+#2 [internal function]: console\controllers\SendController->actionMail()
+#3 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Controller.php(144): yii\base\Controller->runAction('', Array)
+#6 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#7 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('send', Array)
+#8 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('send', Array)
+#9 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 /home/max/projects/ayumi-anime/yii(27): yii\base\Application->run()
+#11 {main}
+2017-12-26 10:21:59 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_VTNR' => '7'
+    'XDG_SESSION_ID' => 'c2'
+    'XDG_GREETER_DATA_DIR' => '/var/lib/lightdm-data/max'
+    'CLUTTER_IM_MODULE' => 'xim'
+    'GIO_LAUNCHED_DESKTOP_FILE_PID' => '3005'
+    'SESSION' => 'ubuntu'
+    'GPG_AGENT_INFO' => '/home/max/.gnupg/S.gpg-agent:0:1'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'DERBY_HOME' => '/usr/lib/jvm/java-8-oracle/db'
+    'QT_LINUX_ACCESSIBILITY_ALWAYS_ON' => '1'
+    'GNOME_KEYRING_CONTROL' => ''
+    'UPSTART_SESSION' => 'unix:abstract=/com/ubuntu/upstart-session/1000/2453'
+    'GTK_MODULES' => 'gail:atk-bridge:unity-gtk-module'
+    'USER' => 'max'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'QT_ACCESSIBILITY' => '1'
+    'XDG_SESSION_PATH' => '/org/freedesktop/DisplayManager/Session0'
+    'XDG_SEAT_PATH' => '/org/freedesktop/DisplayManager/Seat0'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'SESSION_MANAGER' => 'local/comp:@/tmp/.ICE-unix/2692,unix/comp:/tmp/.ICE-unix/2692'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'GIO_LAUNCHED_DESKTOP_FILE' => '/home/max/.local/share/applications/jetbrains-phpstorm.desktop'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'PATH' => '/home/max/bin:/home/max/.local/bin:/home/max/bin:/home/max/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin'
+    'QT_QPA_PLATFORMTHEME' => 'appmenu-qt5'
+    'QT_IM_MODULE' => 'ibus'
+    'XDG_SESSION_TYPE' => 'x11'
+    'PWD' => '/home/max/projects/ayumi-anime'
+    'JOB' => 'unity-settings-daemon'
+    'JAVA_HOME' => '/usr/lib/jvm/java-8-oracle'
+    'XMODIFIERS' => '@im=ibus'
+    'GNOME_KEYRING_PID' => ''
+    'LANG' => 'ru_UA.UTF-8'
+    'GDM_LANG' => 'ru'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'COMPIZ_CONFIG_PROFILE' => 'ubuntu'
+    'IM_CONFIG_PHASE' => '1'
+    'GDMSESSION' => 'ubuntu'
+    'SESSIONTYPE' => 'gnome-session'
+    'GTK2_MODULES' => 'overlay-scrollbar'
+    'HOME' => '/home/max'
+    'XDG_SEAT' => 'seat0'
+    'SHLVL' => '1'
+    'LANGUAGE' => 'ru_UA:ru'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'UPSTART_INSTANCE' => ''
+    'UPSTART_EVENTS' => 'xsession started'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'LOGNAME' => 'max'
+    'COMPIZ_BIN_PATH' => '/usr/bin/'
+    'J2SDKDIR' => '/usr/lib/jvm/java-8-oracle'
+    'QT4_IM_MODULE' => 'xim'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:abstract=/tmp/dbus-GPrCCOTCHf'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/var/lib/snapd/desktop'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'UPSTART_JOB' => 'unity7'
+    'INSTANCE' => ''
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'DISPLAY' => ':0'
+    'J2REDIR' => '/usr/lib/jvm/java-8-oracle/jre'
+    'XDG_CURRENT_DESKTOP' => 'Unity'
+    'GTK_IM_MODULE' => 'ibus'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XAUTHORITY' => '/home/max/.Xauthority'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1514283719.2932
+    'REQUEST_TIME' => 1514283719
+    'argv' => [
+        0 => 'yii'
+        1 => 'send'
+    ]
+    'argc' => 2
+]
+2017-12-26 10:26:01 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined offset: 0 in /home/max/projects/ayumi-anime/console/models/SendSubscr.php:37
+Stack trace:
+#0 /home/max/projects/ayumi-anime/console/models/SendSubscr.php(37): yii\base\ErrorHandler->handleError(8, 'Undefined offse...', '/home/max/proje...', 37, Array)
+#1 /home/max/projects/ayumi-anime/console/controllers/SendController.php(14): console\models\SendSubscr->send()
+#2 [internal function]: console\controllers\SendController->actionMail()
+#3 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Controller.php(144): yii\base\Controller->runAction('', Array)
+#6 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#7 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('send', Array)
+#8 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('send', Array)
+#9 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 /home/max/projects/ayumi-anime/yii(27): yii\base\Application->run()
+#11 {main}
+2017-12-26 10:26:01 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_VTNR' => '7'
+    'XDG_SESSION_ID' => 'c2'
+    'XDG_GREETER_DATA_DIR' => '/var/lib/lightdm-data/max'
+    'CLUTTER_IM_MODULE' => 'xim'
+    'GIO_LAUNCHED_DESKTOP_FILE_PID' => '3005'
+    'SESSION' => 'ubuntu'
+    'GPG_AGENT_INFO' => '/home/max/.gnupg/S.gpg-agent:0:1'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'DERBY_HOME' => '/usr/lib/jvm/java-8-oracle/db'
+    'QT_LINUX_ACCESSIBILITY_ALWAYS_ON' => '1'
+    'GNOME_KEYRING_CONTROL' => ''
+    'UPSTART_SESSION' => 'unix:abstract=/com/ubuntu/upstart-session/1000/2453'
+    'GTK_MODULES' => 'gail:atk-bridge:unity-gtk-module'
+    'USER' => 'max'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'QT_ACCESSIBILITY' => '1'
+    'XDG_SESSION_PATH' => '/org/freedesktop/DisplayManager/Session0'
+    'XDG_SEAT_PATH' => '/org/freedesktop/DisplayManager/Seat0'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'SESSION_MANAGER' => 'local/comp:@/tmp/.ICE-unix/2692,unix/comp:/tmp/.ICE-unix/2692'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'GIO_LAUNCHED_DESKTOP_FILE' => '/home/max/.local/share/applications/jetbrains-phpstorm.desktop'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'PATH' => '/home/max/bin:/home/max/.local/bin:/home/max/bin:/home/max/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin'
+    'QT_QPA_PLATFORMTHEME' => 'appmenu-qt5'
+    'QT_IM_MODULE' => 'ibus'
+    'XDG_SESSION_TYPE' => 'x11'
+    'PWD' => '/home/max/projects/ayumi-anime'
+    'JOB' => 'unity-settings-daemon'
+    'JAVA_HOME' => '/usr/lib/jvm/java-8-oracle'
+    'XMODIFIERS' => '@im=ibus'
+    'GNOME_KEYRING_PID' => ''
+    'LANG' => 'ru_UA.UTF-8'
+    'GDM_LANG' => 'ru'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'COMPIZ_CONFIG_PROFILE' => 'ubuntu'
+    'IM_CONFIG_PHASE' => '1'
+    'GDMSESSION' => 'ubuntu'
+    'SESSIONTYPE' => 'gnome-session'
+    'GTK2_MODULES' => 'overlay-scrollbar'
+    'HOME' => '/home/max'
+    'XDG_SEAT' => 'seat0'
+    'SHLVL' => '1'
+    'LANGUAGE' => 'ru_UA:ru'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'UPSTART_INSTANCE' => ''
+    'UPSTART_EVENTS' => 'xsession started'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'LOGNAME' => 'max'
+    'COMPIZ_BIN_PATH' => '/usr/bin/'
+    'J2SDKDIR' => '/usr/lib/jvm/java-8-oracle'
+    'QT4_IM_MODULE' => 'xim'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:abstract=/tmp/dbus-GPrCCOTCHf'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/var/lib/snapd/desktop'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'UPSTART_JOB' => 'unity7'
+    'INSTANCE' => ''
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'DISPLAY' => ':0'
+    'J2REDIR' => '/usr/lib/jvm/java-8-oracle/jre'
+    'XDG_CURRENT_DESKTOP' => 'Unity'
+    'GTK_IM_MODULE' => 'ibus'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XAUTHORITY' => '/home/max/.Xauthority'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1514283961.1343
+    'REQUEST_TIME' => 1514283961
+    'argv' => [
+        0 => 'yii'
+        1 => 'send'
+    ]
+    'argc' => 2
+]
+2017-12-26 10:26:25 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined offset: 1 in /home/max/projects/ayumi-anime/console/models/SendSubscr.php:37
+Stack trace:
+#0 /home/max/projects/ayumi-anime/console/models/SendSubscr.php(37): yii\base\ErrorHandler->handleError(8, 'Undefined offse...', '/home/max/proje...', 37, Array)
+#1 /home/max/projects/ayumi-anime/console/controllers/SendController.php(14): console\models\SendSubscr->send()
+#2 [internal function]: console\controllers\SendController->actionMail()
+#3 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Controller.php(144): yii\base\Controller->runAction('', Array)
+#6 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#7 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('send', Array)
+#8 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('send', Array)
+#9 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 /home/max/projects/ayumi-anime/yii(27): yii\base\Application->run()
+#11 {main}
+2017-12-26 10:26:25 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_VTNR' => '7'
+    'XDG_SESSION_ID' => 'c2'
+    'XDG_GREETER_DATA_DIR' => '/var/lib/lightdm-data/max'
+    'CLUTTER_IM_MODULE' => 'xim'
+    'GIO_LAUNCHED_DESKTOP_FILE_PID' => '3005'
+    'SESSION' => 'ubuntu'
+    'GPG_AGENT_INFO' => '/home/max/.gnupg/S.gpg-agent:0:1'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'DERBY_HOME' => '/usr/lib/jvm/java-8-oracle/db'
+    'QT_LINUX_ACCESSIBILITY_ALWAYS_ON' => '1'
+    'GNOME_KEYRING_CONTROL' => ''
+    'UPSTART_SESSION' => 'unix:abstract=/com/ubuntu/upstart-session/1000/2453'
+    'GTK_MODULES' => 'gail:atk-bridge:unity-gtk-module'
+    'USER' => 'max'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'QT_ACCESSIBILITY' => '1'
+    'XDG_SESSION_PATH' => '/org/freedesktop/DisplayManager/Session0'
+    'XDG_SEAT_PATH' => '/org/freedesktop/DisplayManager/Seat0'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'SESSION_MANAGER' => 'local/comp:@/tmp/.ICE-unix/2692,unix/comp:/tmp/.ICE-unix/2692'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'GIO_LAUNCHED_DESKTOP_FILE' => '/home/max/.local/share/applications/jetbrains-phpstorm.desktop'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'PATH' => '/home/max/bin:/home/max/.local/bin:/home/max/bin:/home/max/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin'
+    'QT_QPA_PLATFORMTHEME' => 'appmenu-qt5'
+    'QT_IM_MODULE' => 'ibus'
+    'XDG_SESSION_TYPE' => 'x11'
+    'PWD' => '/home/max/projects/ayumi-anime'
+    'JOB' => 'unity-settings-daemon'
+    'JAVA_HOME' => '/usr/lib/jvm/java-8-oracle'
+    'XMODIFIERS' => '@im=ibus'
+    'GNOME_KEYRING_PID' => ''
+    'LANG' => 'ru_UA.UTF-8'
+    'GDM_LANG' => 'ru'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'COMPIZ_CONFIG_PROFILE' => 'ubuntu'
+    'IM_CONFIG_PHASE' => '1'
+    'GDMSESSION' => 'ubuntu'
+    'SESSIONTYPE' => 'gnome-session'
+    'GTK2_MODULES' => 'overlay-scrollbar'
+    'HOME' => '/home/max'
+    'XDG_SEAT' => 'seat0'
+    'SHLVL' => '1'
+    'LANGUAGE' => 'ru_UA:ru'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'UPSTART_INSTANCE' => ''
+    'UPSTART_EVENTS' => 'xsession started'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'LOGNAME' => 'max'
+    'COMPIZ_BIN_PATH' => '/usr/bin/'
+    'J2SDKDIR' => '/usr/lib/jvm/java-8-oracle'
+    'QT4_IM_MODULE' => 'xim'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:abstract=/tmp/dbus-GPrCCOTCHf'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/var/lib/snapd/desktop'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'UPSTART_JOB' => 'unity7'
+    'INSTANCE' => ''
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'DISPLAY' => ':0'
+    'J2REDIR' => '/usr/lib/jvm/java-8-oracle/jre'
+    'XDG_CURRENT_DESKTOP' => 'Unity'
+    'GTK_IM_MODULE' => 'ibus'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XAUTHORITY' => '/home/max/.Xauthority'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1514283985.4841
+    'REQUEST_TIME' => 1514283985
+    'argv' => [
+        0 => 'yii'
+        1 => 'send'
+    ]
+    'argc' => 2
+]
+2017-12-26 10:30:25 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined offset: 0 in /home/max/projects/ayumi-anime/console/models/SendSubscr.php:37
+Stack trace:
+#0 /home/max/projects/ayumi-anime/console/models/SendSubscr.php(37): yii\base\ErrorHandler->handleError(8, 'Undefined offse...', '/home/max/proje...', 37, Array)
+#1 /home/max/projects/ayumi-anime/console/controllers/SendController.php(14): console\models\SendSubscr->send()
+#2 [internal function]: console\controllers\SendController->actionMail()
+#3 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Controller.php(144): yii\base\Controller->runAction('', Array)
+#6 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#7 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('send', Array)
+#8 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('send', Array)
+#9 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 /home/max/projects/ayumi-anime/yii(27): yii\base\Application->run()
+#11 {main}
+2017-12-26 10:30:25 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_VTNR' => '7'
+    'XDG_SESSION_ID' => 'c2'
+    'XDG_GREETER_DATA_DIR' => '/var/lib/lightdm-data/max'
+    'CLUTTER_IM_MODULE' => 'xim'
+    'GIO_LAUNCHED_DESKTOP_FILE_PID' => '3005'
+    'SESSION' => 'ubuntu'
+    'GPG_AGENT_INFO' => '/home/max/.gnupg/S.gpg-agent:0:1'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'DERBY_HOME' => '/usr/lib/jvm/java-8-oracle/db'
+    'QT_LINUX_ACCESSIBILITY_ALWAYS_ON' => '1'
+    'GNOME_KEYRING_CONTROL' => ''
+    'UPSTART_SESSION' => 'unix:abstract=/com/ubuntu/upstart-session/1000/2453'
+    'GTK_MODULES' => 'gail:atk-bridge:unity-gtk-module'
+    'USER' => 'max'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'QT_ACCESSIBILITY' => '1'
+    'XDG_SESSION_PATH' => '/org/freedesktop/DisplayManager/Session0'
+    'XDG_SEAT_PATH' => '/org/freedesktop/DisplayManager/Seat0'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'SESSION_MANAGER' => 'local/comp:@/tmp/.ICE-unix/2692,unix/comp:/tmp/.ICE-unix/2692'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'GIO_LAUNCHED_DESKTOP_FILE' => '/home/max/.local/share/applications/jetbrains-phpstorm.desktop'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'PATH' => '/home/max/bin:/home/max/.local/bin:/home/max/bin:/home/max/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin'
+    'QT_QPA_PLATFORMTHEME' => 'appmenu-qt5'
+    'QT_IM_MODULE' => 'ibus'
+    'XDG_SESSION_TYPE' => 'x11'
+    'PWD' => '/home/max/projects/ayumi-anime'
+    'JOB' => 'unity-settings-daemon'
+    'JAVA_HOME' => '/usr/lib/jvm/java-8-oracle'
+    'XMODIFIERS' => '@im=ibus'
+    'GNOME_KEYRING_PID' => ''
+    'LANG' => 'ru_UA.UTF-8'
+    'GDM_LANG' => 'ru'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'COMPIZ_CONFIG_PROFILE' => 'ubuntu'
+    'IM_CONFIG_PHASE' => '1'
+    'GDMSESSION' => 'ubuntu'
+    'SESSIONTYPE' => 'gnome-session'
+    'GTK2_MODULES' => 'overlay-scrollbar'
+    'HOME' => '/home/max'
+    'XDG_SEAT' => 'seat0'
+    'SHLVL' => '1'
+    'LANGUAGE' => 'ru_UA:ru'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'UPSTART_INSTANCE' => ''
+    'UPSTART_EVENTS' => 'xsession started'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'LOGNAME' => 'max'
+    'COMPIZ_BIN_PATH' => '/usr/bin/'
+    'J2SDKDIR' => '/usr/lib/jvm/java-8-oracle'
+    'QT4_IM_MODULE' => 'xim'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:abstract=/tmp/dbus-GPrCCOTCHf'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/var/lib/snapd/desktop'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'UPSTART_JOB' => 'unity7'
+    'INSTANCE' => ''
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'DISPLAY' => ':0'
+    'J2REDIR' => '/usr/lib/jvm/java-8-oracle/jre'
+    'XDG_CURRENT_DESKTOP' => 'Unity'
+    'GTK_IM_MODULE' => 'ibus'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XAUTHORITY' => '/home/max/.Xauthority'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1514284225.9738
+    'REQUEST_TIME' => 1514284225
+    'argv' => [
+        0 => 'yii'
+        1 => 'send'
+    ]
+    'argc' => 2
+]
+2017-12-26 10:31:34 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property of non-object in /home/max/projects/ayumi-anime/console/models/SendSubscr.php:40
+Stack trace:
+#0 /home/max/projects/ayumi-anime/console/models/SendSubscr.php(40): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', '/home/max/proje...', 40, Array)
+#1 /home/max/projects/ayumi-anime/console/controllers/SendController.php(14): console\models\SendSubscr->send()
+#2 [internal function]: console\controllers\SendController->actionMail()
+#3 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Controller.php(144): yii\base\Controller->runAction('', Array)
+#6 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#7 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('send', Array)
+#8 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('send', Array)
+#9 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 /home/max/projects/ayumi-anime/yii(27): yii\base\Application->run()
+#11 {main}
+2017-12-26 10:31:34 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_VTNR' => '7'
+    'XDG_SESSION_ID' => 'c2'
+    'XDG_GREETER_DATA_DIR' => '/var/lib/lightdm-data/max'
+    'CLUTTER_IM_MODULE' => 'xim'
+    'GIO_LAUNCHED_DESKTOP_FILE_PID' => '3005'
+    'SESSION' => 'ubuntu'
+    'GPG_AGENT_INFO' => '/home/max/.gnupg/S.gpg-agent:0:1'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'DERBY_HOME' => '/usr/lib/jvm/java-8-oracle/db'
+    'QT_LINUX_ACCESSIBILITY_ALWAYS_ON' => '1'
+    'GNOME_KEYRING_CONTROL' => ''
+    'UPSTART_SESSION' => 'unix:abstract=/com/ubuntu/upstart-session/1000/2453'
+    'GTK_MODULES' => 'gail:atk-bridge:unity-gtk-module'
+    'USER' => 'max'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'QT_ACCESSIBILITY' => '1'
+    'XDG_SESSION_PATH' => '/org/freedesktop/DisplayManager/Session0'
+    'XDG_SEAT_PATH' => '/org/freedesktop/DisplayManager/Seat0'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'SESSION_MANAGER' => 'local/comp:@/tmp/.ICE-unix/2692,unix/comp:/tmp/.ICE-unix/2692'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'GIO_LAUNCHED_DESKTOP_FILE' => '/home/max/.local/share/applications/jetbrains-phpstorm.desktop'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'PATH' => '/home/max/bin:/home/max/.local/bin:/home/max/bin:/home/max/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin'
+    'QT_QPA_PLATFORMTHEME' => 'appmenu-qt5'
+    'QT_IM_MODULE' => 'ibus'
+    'XDG_SESSION_TYPE' => 'x11'
+    'PWD' => '/home/max/projects/ayumi-anime'
+    'JOB' => 'unity-settings-daemon'
+    'JAVA_HOME' => '/usr/lib/jvm/java-8-oracle'
+    'XMODIFIERS' => '@im=ibus'
+    'GNOME_KEYRING_PID' => ''
+    'LANG' => 'ru_UA.UTF-8'
+    'GDM_LANG' => 'ru'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'COMPIZ_CONFIG_PROFILE' => 'ubuntu'
+    'IM_CONFIG_PHASE' => '1'
+    'GDMSESSION' => 'ubuntu'
+    'SESSIONTYPE' => 'gnome-session'
+    'GTK2_MODULES' => 'overlay-scrollbar'
+    'HOME' => '/home/max'
+    'XDG_SEAT' => 'seat0'
+    'SHLVL' => '1'
+    'LANGUAGE' => 'ru_UA:ru'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'UPSTART_INSTANCE' => ''
+    'UPSTART_EVENTS' => 'xsession started'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'LOGNAME' => 'max'
+    'COMPIZ_BIN_PATH' => '/usr/bin/'
+    'J2SDKDIR' => '/usr/lib/jvm/java-8-oracle'
+    'QT4_IM_MODULE' => 'xim'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:abstract=/tmp/dbus-GPrCCOTCHf'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/var/lib/snapd/desktop'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'UPSTART_JOB' => 'unity7'
+    'INSTANCE' => ''
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'DISPLAY' => ':0'
+    'J2REDIR' => '/usr/lib/jvm/java-8-oracle/jre'
+    'XDG_CURRENT_DESKTOP' => 'Unity'
+    'GTK_IM_MODULE' => 'ibus'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XAUTHORITY' => '/home/max/.Xauthority'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1514284294.1328
+    'REQUEST_TIME' => 1514284294
+    'argv' => [
+        0 => 'yii'
+        1 => 'send'
+    ]
+    'argc' => 2
+]
+2017-12-26 10:32:59 [-][-][-][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: common\models\Video::end in /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Component.php:148
+Stack trace:
+#0 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/db/BaseActiveRecord.php(288): yii\base\Component->__get('end')
+#1 /home/max/projects/ayumi-anime/console/models/SendSubscr.php(40): yii\db\BaseActiveRecord->__get('end')
+#2 /home/max/projects/ayumi-anime/console/controllers/SendController.php(14): console\models\SendSubscr->send()
+#3 [internal function]: console\controllers\SendController->actionMail()
+#4 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Controller.php(144): yii\base\Controller->runAction('', Array)
+#7 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#8 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('send', Array)
+#9 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('send', Array)
+#10 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 /home/max/projects/ayumi-anime/yii(27): yii\base\Application->run()
+#12 {main}
+2017-12-26 10:32:59 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_VTNR' => '7'
+    'XDG_SESSION_ID' => 'c2'
+    'XDG_GREETER_DATA_DIR' => '/var/lib/lightdm-data/max'
+    'CLUTTER_IM_MODULE' => 'xim'
+    'GIO_LAUNCHED_DESKTOP_FILE_PID' => '3005'
+    'SESSION' => 'ubuntu'
+    'GPG_AGENT_INFO' => '/home/max/.gnupg/S.gpg-agent:0:1'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'DERBY_HOME' => '/usr/lib/jvm/java-8-oracle/db'
+    'QT_LINUX_ACCESSIBILITY_ALWAYS_ON' => '1'
+    'GNOME_KEYRING_CONTROL' => ''
+    'UPSTART_SESSION' => 'unix:abstract=/com/ubuntu/upstart-session/1000/2453'
+    'GTK_MODULES' => 'gail:atk-bridge:unity-gtk-module'
+    'USER' => 'max'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'QT_ACCESSIBILITY' => '1'
+    'XDG_SESSION_PATH' => '/org/freedesktop/DisplayManager/Session0'
+    'XDG_SEAT_PATH' => '/org/freedesktop/DisplayManager/Seat0'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'SESSION_MANAGER' => 'local/comp:@/tmp/.ICE-unix/2692,unix/comp:/tmp/.ICE-unix/2692'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'GIO_LAUNCHED_DESKTOP_FILE' => '/home/max/.local/share/applications/jetbrains-phpstorm.desktop'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'PATH' => '/home/max/bin:/home/max/.local/bin:/home/max/bin:/home/max/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin'
+    'QT_QPA_PLATFORMTHEME' => 'appmenu-qt5'
+    'QT_IM_MODULE' => 'ibus'
+    'XDG_SESSION_TYPE' => 'x11'
+    'PWD' => '/home/max/projects/ayumi-anime'
+    'JOB' => 'unity-settings-daemon'
+    'JAVA_HOME' => '/usr/lib/jvm/java-8-oracle'
+    'XMODIFIERS' => '@im=ibus'
+    'GNOME_KEYRING_PID' => ''
+    'LANG' => 'ru_UA.UTF-8'
+    'GDM_LANG' => 'ru'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'COMPIZ_CONFIG_PROFILE' => 'ubuntu'
+    'IM_CONFIG_PHASE' => '1'
+    'GDMSESSION' => 'ubuntu'
+    'SESSIONTYPE' => 'gnome-session'
+    'GTK2_MODULES' => 'overlay-scrollbar'
+    'HOME' => '/home/max'
+    'XDG_SEAT' => 'seat0'
+    'SHLVL' => '1'
+    'LANGUAGE' => 'ru_UA:ru'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'UPSTART_INSTANCE' => ''
+    'UPSTART_EVENTS' => 'xsession started'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'LOGNAME' => 'max'
+    'COMPIZ_BIN_PATH' => '/usr/bin/'
+    'J2SDKDIR' => '/usr/lib/jvm/java-8-oracle'
+    'QT4_IM_MODULE' => 'xim'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:abstract=/tmp/dbus-GPrCCOTCHf'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/var/lib/snapd/desktop'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'UPSTART_JOB' => 'unity7'
+    'INSTANCE' => ''
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'DISPLAY' => ':0'
+    'J2REDIR' => '/usr/lib/jvm/java-8-oracle/jre'
+    'XDG_CURRENT_DESKTOP' => 'Unity'
+    'GTK_IM_MODULE' => 'ibus'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XAUTHORITY' => '/home/max/.Xauthority'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1514284379.3267
+    'REQUEST_TIME' => 1514284379
+    'argv' => [
+        0 => 'yii'
+        1 => 'send'
+    ]
+    'argc' => 2
+]
+2017-12-26 10:47:43 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined offset: 0 in /home/max/projects/ayumi-anime/console/models/SendSubscr.php:37
+Stack trace:
+#0 /home/max/projects/ayumi-anime/console/models/SendSubscr.php(37): yii\base\ErrorHandler->handleError(8, 'Undefined offse...', '/home/max/proje...', 37, Array)
+#1 /home/max/projects/ayumi-anime/console/controllers/SendController.php(14): console\models\SendSubscr->send()
+#2 [internal function]: console\controllers\SendController->actionMail()
+#3 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Controller.php(144): yii\base\Controller->runAction('', Array)
+#6 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#7 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('send', Array)
+#8 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('send', Array)
+#9 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 /home/max/projects/ayumi-anime/yii(27): yii\base\Application->run()
+#11 {main}
+2017-12-26 10:47:43 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_VTNR' => '7'
+    'XDG_SESSION_ID' => 'c2'
+    'XDG_GREETER_DATA_DIR' => '/var/lib/lightdm-data/max'
+    'CLUTTER_IM_MODULE' => 'xim'
+    'GIO_LAUNCHED_DESKTOP_FILE_PID' => '3005'
+    'SESSION' => 'ubuntu'
+    'GPG_AGENT_INFO' => '/home/max/.gnupg/S.gpg-agent:0:1'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'DERBY_HOME' => '/usr/lib/jvm/java-8-oracle/db'
+    'QT_LINUX_ACCESSIBILITY_ALWAYS_ON' => '1'
+    'GNOME_KEYRING_CONTROL' => ''
+    'UPSTART_SESSION' => 'unix:abstract=/com/ubuntu/upstart-session/1000/2453'
+    'GTK_MODULES' => 'gail:atk-bridge:unity-gtk-module'
+    'USER' => 'max'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'QT_ACCESSIBILITY' => '1'
+    'XDG_SESSION_PATH' => '/org/freedesktop/DisplayManager/Session0'
+    'XDG_SEAT_PATH' => '/org/freedesktop/DisplayManager/Seat0'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'SESSION_MANAGER' => 'local/comp:@/tmp/.ICE-unix/2692,unix/comp:/tmp/.ICE-unix/2692'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'GIO_LAUNCHED_DESKTOP_FILE' => '/home/max/.local/share/applications/jetbrains-phpstorm.desktop'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'PATH' => '/home/max/bin:/home/max/.local/bin:/home/max/bin:/home/max/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin'
+    'QT_QPA_PLATFORMTHEME' => 'appmenu-qt5'
+    'QT_IM_MODULE' => 'ibus'
+    'XDG_SESSION_TYPE' => 'x11'
+    'PWD' => '/home/max/projects/ayumi-anime'
+    'JOB' => 'unity-settings-daemon'
+    'JAVA_HOME' => '/usr/lib/jvm/java-8-oracle'
+    'XMODIFIERS' => '@im=ibus'
+    'GNOME_KEYRING_PID' => ''
+    'LANG' => 'ru_UA.UTF-8'
+    'GDM_LANG' => 'ru'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'COMPIZ_CONFIG_PROFILE' => 'ubuntu'
+    'IM_CONFIG_PHASE' => '1'
+    'GDMSESSION' => 'ubuntu'
+    'SESSIONTYPE' => 'gnome-session'
+    'GTK2_MODULES' => 'overlay-scrollbar'
+    'HOME' => '/home/max'
+    'XDG_SEAT' => 'seat0'
+    'SHLVL' => '1'
+    'LANGUAGE' => 'ru_UA:ru'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'UPSTART_INSTANCE' => ''
+    'UPSTART_EVENTS' => 'xsession started'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'LOGNAME' => 'max'
+    'COMPIZ_BIN_PATH' => '/usr/bin/'
+    'J2SDKDIR' => '/usr/lib/jvm/java-8-oracle'
+    'QT4_IM_MODULE' => 'xim'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:abstract=/tmp/dbus-GPrCCOTCHf'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/var/lib/snapd/desktop'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'UPSTART_JOB' => 'unity7'
+    'INSTANCE' => ''
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'DISPLAY' => ':0'
+    'J2REDIR' => '/usr/lib/jvm/java-8-oracle/jre'
+    'XDG_CURRENT_DESKTOP' => 'Unity'
+    'GTK_IM_MODULE' => 'ibus'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XAUTHORITY' => '/home/max/.Xauthority'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1514285263.2803
+    'REQUEST_TIME' => 1514285263
+    'argv' => [
+        0 => 'yii'
+        1 => 'send'
+    ]
+    'argc' => 2
+]
+2017-12-26 10:56:29 [-][-][-][error][Swift_TransportException] Swift_TransportException: Expected response code 250 but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 13sm5735282ljv.37 - gsmtp
+" in /home/max/projects/ayumi-anime/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:383
+Stack trace:
+#0 /home/max/projects/ayumi-anime/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('535-5.7.8 Usern...', Array)
+#1 /home/max/projects/ayumi-anime/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(270): Swift_Transport_AbstractSmtpTransport->executeCommand('RSET\r\n', Array, Array)
+#2 /home/max/projects/ayumi-anime/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/XOAuth2Authenticator.php(55): Swift_Transport_EsmtpTransport->executeCommand('RSET\r\n', Array)
+#3 /home/max/projects/ayumi-anime/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php(176): Swift_Transport_Esmtp_Auth_XOAuth2Authenticator->authenticate(Object(Swift_SmtpTransport), 'myfirstwork121@...', 'Z5MZp6Asx3M9kNr...')
+#4 /home/max/projects/ayumi-anime/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(332): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#5 /home/max/projects/ayumi-anime/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(118): Swift_Transport_EsmtpTransport->_doHeloCommand()
+#6 /home/max/projects/ayumi-anime/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#7 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2-swiftmailer/Mailer.php(146): Swift_Mailer->send(Object(Swift_Message))
+#8 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/mail/BaseMailer.php(263): yii\swiftmailer\Mailer->sendMessage(Object(yii\swiftmailer\Message))
+#9 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/mail/BaseMessage.php(49): yii\mail\BaseMailer->send(Object(yii\swiftmailer\Message))
+#10 /home/max/projects/ayumi-anime/console/models/SendSubscr.php(118): yii\mail\BaseMessage->send()
+#11 /home/max/projects/ayumi-anime/console/models/SendSubscr.php(81): console\models\SendSubscr->sendSub('myfirstwork121@...', 27)
+#12 /home/max/projects/ayumi-anime/console/controllers/SendController.php(14): console\models\SendSubscr->send()
+#13 [internal function]: console\controllers\SendController->actionMail()
+#14 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#16 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Controller.php(144): yii\base\Controller->runAction('', Array)
+#17 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#18 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('send', Array)
+#19 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('send', Array)
+#20 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#21 /home/max/projects/ayumi-anime/yii(27): yii\base\Application->run()
+#22 {main}
+2017-12-26 10:56:27 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_VTNR' => '7'
+    'XDG_SESSION_ID' => 'c2'
+    'XDG_GREETER_DATA_DIR' => '/var/lib/lightdm-data/max'
+    'CLUTTER_IM_MODULE' => 'xim'
+    'GIO_LAUNCHED_DESKTOP_FILE_PID' => '3005'
+    'SESSION' => 'ubuntu'
+    'GPG_AGENT_INFO' => '/home/max/.gnupg/S.gpg-agent:0:1'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'DERBY_HOME' => '/usr/lib/jvm/java-8-oracle/db'
+    'QT_LINUX_ACCESSIBILITY_ALWAYS_ON' => '1'
+    'GNOME_KEYRING_CONTROL' => ''
+    'UPSTART_SESSION' => 'unix:abstract=/com/ubuntu/upstart-session/1000/2453'
+    'GTK_MODULES' => 'gail:atk-bridge:unity-gtk-module'
+    'USER' => 'max'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'QT_ACCESSIBILITY' => '1'
+    'XDG_SESSION_PATH' => '/org/freedesktop/DisplayManager/Session0'
+    'XDG_SEAT_PATH' => '/org/freedesktop/DisplayManager/Seat0'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'SESSION_MANAGER' => 'local/comp:@/tmp/.ICE-unix/2692,unix/comp:/tmp/.ICE-unix/2692'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'GIO_LAUNCHED_DESKTOP_FILE' => '/home/max/.local/share/applications/jetbrains-phpstorm.desktop'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'PATH' => '/home/max/bin:/home/max/.local/bin:/home/max/bin:/home/max/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin'
+    'QT_QPA_PLATFORMTHEME' => 'appmenu-qt5'
+    'QT_IM_MODULE' => 'ibus'
+    'XDG_SESSION_TYPE' => 'x11'
+    'PWD' => '/home/max/projects/ayumi-anime'
+    'JOB' => 'unity-settings-daemon'
+    'JAVA_HOME' => '/usr/lib/jvm/java-8-oracle'
+    'XMODIFIERS' => '@im=ibus'
+    'GNOME_KEYRING_PID' => ''
+    'LANG' => 'ru_UA.UTF-8'
+    'GDM_LANG' => 'ru'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'COMPIZ_CONFIG_PROFILE' => 'ubuntu'
+    'IM_CONFIG_PHASE' => '1'
+    'GDMSESSION' => 'ubuntu'
+    'SESSIONTYPE' => 'gnome-session'
+    'GTK2_MODULES' => 'overlay-scrollbar'
+    'HOME' => '/home/max'
+    'XDG_SEAT' => 'seat0'
+    'SHLVL' => '1'
+    'LANGUAGE' => 'ru_UA:ru'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'UPSTART_INSTANCE' => ''
+    'UPSTART_EVENTS' => 'xsession started'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'LOGNAME' => 'max'
+    'COMPIZ_BIN_PATH' => '/usr/bin/'
+    'J2SDKDIR' => '/usr/lib/jvm/java-8-oracle'
+    'QT4_IM_MODULE' => 'xim'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:abstract=/tmp/dbus-GPrCCOTCHf'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/var/lib/snapd/desktop'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'UPSTART_JOB' => 'unity7'
+    'INSTANCE' => ''
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'DISPLAY' => ':0'
+    'J2REDIR' => '/usr/lib/jvm/java-8-oracle/jre'
+    'XDG_CURRENT_DESKTOP' => 'Unity'
+    'GTK_IM_MODULE' => 'ibus'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XAUTHORITY' => '/home/max/.Xauthority'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1514285787.9835
+    'REQUEST_TIME' => 1514285787
+    'argv' => [
+        0 => 'yii'
+        1 => 'send'
+    ]
+    'argc' => 2
+]
+2017-12-26 10:56:58 [-][-][-][error][Swift_TransportException] Swift_TransportException: Expected response code 250 but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials y13sm1881851lfg.12 - gsmtp
+" in /home/max/projects/ayumi-anime/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:383
+Stack trace:
+#0 /home/max/projects/ayumi-anime/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('535-5.7.8 Usern...', Array)
+#1 /home/max/projects/ayumi-anime/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(270): Swift_Transport_AbstractSmtpTransport->executeCommand('RSET\r\n', Array, Array)
+#2 /home/max/projects/ayumi-anime/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/XOAuth2Authenticator.php(55): Swift_Transport_EsmtpTransport->executeCommand('RSET\r\n', Array)
+#3 /home/max/projects/ayumi-anime/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php(176): Swift_Transport_Esmtp_Auth_XOAuth2Authenticator->authenticate(Object(Swift_SmtpTransport), 'myfirstwork121@...', 'Z5MZp6Asx3M9kNr...')
+#4 /home/max/projects/ayumi-anime/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(332): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#5 /home/max/projects/ayumi-anime/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(118): Swift_Transport_EsmtpTransport->_doHeloCommand()
+#6 /home/max/projects/ayumi-anime/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#7 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2-swiftmailer/Mailer.php(146): Swift_Mailer->send(Object(Swift_Message))
+#8 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/mail/BaseMailer.php(263): yii\swiftmailer\Mailer->sendMessage(Object(yii\swiftmailer\Message))
+#9 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/mail/BaseMessage.php(49): yii\mail\BaseMailer->send(Object(yii\swiftmailer\Message))
+#10 /home/max/projects/ayumi-anime/console/models/SendSubscr.php(118): yii\mail\BaseMessage->send()
+#11 /home/max/projects/ayumi-anime/console/models/SendSubscr.php(81): console\models\SendSubscr->sendSub('myfirstwork121@...', 27)
+#12 /home/max/projects/ayumi-anime/console/controllers/SendController.php(14): console\models\SendSubscr->send()
+#13 [internal function]: console\controllers\SendController->actionMail()
+#14 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#16 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Controller.php(144): yii\base\Controller->runAction('', Array)
+#17 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#18 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('send', Array)
+#19 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('send', Array)
+#20 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#21 /home/max/projects/ayumi-anime/yii(27): yii\base\Application->run()
+#22 {main}
+2017-12-26 10:56:57 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_VTNR' => '7'
+    'XDG_SESSION_ID' => 'c2'
+    'XDG_GREETER_DATA_DIR' => '/var/lib/lightdm-data/max'
+    'CLUTTER_IM_MODULE' => 'xim'
+    'GIO_LAUNCHED_DESKTOP_FILE_PID' => '3005'
+    'SESSION' => 'ubuntu'
+    'GPG_AGENT_INFO' => '/home/max/.gnupg/S.gpg-agent:0:1'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'DERBY_HOME' => '/usr/lib/jvm/java-8-oracle/db'
+    'QT_LINUX_ACCESSIBILITY_ALWAYS_ON' => '1'
+    'GNOME_KEYRING_CONTROL' => ''
+    'UPSTART_SESSION' => 'unix:abstract=/com/ubuntu/upstart-session/1000/2453'
+    'GTK_MODULES' => 'gail:atk-bridge:unity-gtk-module'
+    'USER' => 'max'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'QT_ACCESSIBILITY' => '1'
+    'XDG_SESSION_PATH' => '/org/freedesktop/DisplayManager/Session0'
+    'XDG_SEAT_PATH' => '/org/freedesktop/DisplayManager/Seat0'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'SESSION_MANAGER' => 'local/comp:@/tmp/.ICE-unix/2692,unix/comp:/tmp/.ICE-unix/2692'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'GIO_LAUNCHED_DESKTOP_FILE' => '/home/max/.local/share/applications/jetbrains-phpstorm.desktop'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'PATH' => '/home/max/bin:/home/max/.local/bin:/home/max/bin:/home/max/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin'
+    'QT_QPA_PLATFORMTHEME' => 'appmenu-qt5'
+    'QT_IM_MODULE' => 'ibus'
+    'XDG_SESSION_TYPE' => 'x11'
+    'PWD' => '/home/max/projects/ayumi-anime'
+    'JOB' => 'unity-settings-daemon'
+    'JAVA_HOME' => '/usr/lib/jvm/java-8-oracle'
+    'XMODIFIERS' => '@im=ibus'
+    'GNOME_KEYRING_PID' => ''
+    'LANG' => 'ru_UA.UTF-8'
+    'GDM_LANG' => 'ru'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'COMPIZ_CONFIG_PROFILE' => 'ubuntu'
+    'IM_CONFIG_PHASE' => '1'
+    'GDMSESSION' => 'ubuntu'
+    'SESSIONTYPE' => 'gnome-session'
+    'GTK2_MODULES' => 'overlay-scrollbar'
+    'HOME' => '/home/max'
+    'XDG_SEAT' => 'seat0'
+    'SHLVL' => '1'
+    'LANGUAGE' => 'ru_UA:ru'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'UPSTART_INSTANCE' => ''
+    'UPSTART_EVENTS' => 'xsession started'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'LOGNAME' => 'max'
+    'COMPIZ_BIN_PATH' => '/usr/bin/'
+    'J2SDKDIR' => '/usr/lib/jvm/java-8-oracle'
+    'QT4_IM_MODULE' => 'xim'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:abstract=/tmp/dbus-GPrCCOTCHf'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/var/lib/snapd/desktop'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'UPSTART_JOB' => 'unity7'
+    'INSTANCE' => ''
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'DISPLAY' => ':0'
+    'J2REDIR' => '/usr/lib/jvm/java-8-oracle/jre'
+    'XDG_CURRENT_DESKTOP' => 'Unity'
+    'GTK_IM_MODULE' => 'ibus'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XAUTHORITY' => '/home/max/.Xauthority'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1514285817.3144
+    'REQUEST_TIME' => 1514285817
+    'argv' => [
+        0 => 'yii'
+        1 => 'send'
+    ]
+    'argc' => 2
+]
+2017-12-26 10:57:12 [-][-][-][error][Swift_TransportException] Swift_TransportException: Cannot send message without a sender address in /home/max/projects/ayumi-anime/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:162
+Stack trace:
+#0 /home/max/projects/ayumi-anime/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(85): Swift_Transport_AbstractSmtpTransport->send(Object(Swift_Message), Array)
+#1 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2-swiftmailer/Mailer.php(146): Swift_Mailer->send(Object(Swift_Message))
+#2 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/mail/BaseMailer.php(263): yii\swiftmailer\Mailer->sendMessage(Object(yii\swiftmailer\Message))
+#3 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/mail/BaseMessage.php(49): yii\mail\BaseMailer->send(Object(yii\swiftmailer\Message))
+#4 /home/max/projects/ayumi-anime/console/models/SendSubscr.php(118): yii\mail\BaseMessage->send()
+#5 /home/max/projects/ayumi-anime/console/models/SendSubscr.php(81): console\models\SendSubscr->sendSub('myfirstwork121@...', 27)
+#6 /home/max/projects/ayumi-anime/console/controllers/SendController.php(14): console\models\SendSubscr->send()
+#7 [internal function]: console\controllers\SendController->actionMail()
+#8 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Controller.php(144): yii\base\Controller->runAction('', Array)
+#11 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#12 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('send', Array)
+#13 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('send', Array)
+#14 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#15 /home/max/projects/ayumi-anime/yii(27): yii\base\Application->run()
+#16 {main}
+2017-12-26 10:57:11 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_VTNR' => '7'
+    'XDG_SESSION_ID' => 'c2'
+    'XDG_GREETER_DATA_DIR' => '/var/lib/lightdm-data/max'
+    'CLUTTER_IM_MODULE' => 'xim'
+    'GIO_LAUNCHED_DESKTOP_FILE_PID' => '3005'
+    'SESSION' => 'ubuntu'
+    'GPG_AGENT_INFO' => '/home/max/.gnupg/S.gpg-agent:0:1'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'DERBY_HOME' => '/usr/lib/jvm/java-8-oracle/db'
+    'QT_LINUX_ACCESSIBILITY_ALWAYS_ON' => '1'
+    'GNOME_KEYRING_CONTROL' => ''
+    'UPSTART_SESSION' => 'unix:abstract=/com/ubuntu/upstart-session/1000/2453'
+    'GTK_MODULES' => 'gail:atk-bridge:unity-gtk-module'
+    'USER' => 'max'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'QT_ACCESSIBILITY' => '1'
+    'XDG_SESSION_PATH' => '/org/freedesktop/DisplayManager/Session0'
+    'XDG_SEAT_PATH' => '/org/freedesktop/DisplayManager/Seat0'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'SESSION_MANAGER' => 'local/comp:@/tmp/.ICE-unix/2692,unix/comp:/tmp/.ICE-unix/2692'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'GIO_LAUNCHED_DESKTOP_FILE' => '/home/max/.local/share/applications/jetbrains-phpstorm.desktop'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'PATH' => '/home/max/bin:/home/max/.local/bin:/home/max/bin:/home/max/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin'
+    'QT_QPA_PLATFORMTHEME' => 'appmenu-qt5'
+    'QT_IM_MODULE' => 'ibus'
+    'XDG_SESSION_TYPE' => 'x11'
+    'PWD' => '/home/max/projects/ayumi-anime'
+    'JOB' => 'unity-settings-daemon'
+    'JAVA_HOME' => '/usr/lib/jvm/java-8-oracle'
+    'XMODIFIERS' => '@im=ibus'
+    'GNOME_KEYRING_PID' => ''
+    'LANG' => 'ru_UA.UTF-8'
+    'GDM_LANG' => 'ru'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'COMPIZ_CONFIG_PROFILE' => 'ubuntu'
+    'IM_CONFIG_PHASE' => '1'
+    'GDMSESSION' => 'ubuntu'
+    'SESSIONTYPE' => 'gnome-session'
+    'GTK2_MODULES' => 'overlay-scrollbar'
+    'HOME' => '/home/max'
+    'XDG_SEAT' => 'seat0'
+    'SHLVL' => '1'
+    'LANGUAGE' => 'ru_UA:ru'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'UPSTART_INSTANCE' => ''
+    'UPSTART_EVENTS' => 'xsession started'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'LOGNAME' => 'max'
+    'COMPIZ_BIN_PATH' => '/usr/bin/'
+    'J2SDKDIR' => '/usr/lib/jvm/java-8-oracle'
+    'QT4_IM_MODULE' => 'xim'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:abstract=/tmp/dbus-GPrCCOTCHf'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/var/lib/snapd/desktop'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'UPSTART_JOB' => 'unity7'
+    'INSTANCE' => ''
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'DISPLAY' => ':0'
+    'J2REDIR' => '/usr/lib/jvm/java-8-oracle/jre'
+    'XDG_CURRENT_DESKTOP' => 'Unity'
+    'GTK_IM_MODULE' => 'ibus'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XAUTHORITY' => '/home/max/.Xauthority'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1514285831.3126
+    'REQUEST_TIME' => 1514285831
+    'argv' => [
+        0 => 'yii'
+        1 => 'send'
+    ]
+    'argc' => 2
+]
+2017-12-26 13:30:54 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined offset: 0 in /home/max/projects/ayumi-anime/console/models/SendSubscr.php:38
+Stack trace:
+#0 /home/max/projects/ayumi-anime/console/models/SendSubscr.php(38): yii\base\ErrorHandler->handleError(8, 'Undefined offse...', '/home/max/proje...', 38, Array)
+#1 /home/max/projects/ayumi-anime/console/controllers/SendController.php(14): console\models\SendSubscr->send()
+#2 [internal function]: console\controllers\SendController->actionMail()
+#3 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Controller.php(144): yii\base\Controller->runAction('', Array)
+#6 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#7 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('send', Array)
+#8 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('send', Array)
+#9 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 /home/max/projects/ayumi-anime/yii(27): yii\base\Application->run()
+#11 {main}
+2017-12-26 13:30:54 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_VTNR' => '7'
+    'XDG_SESSION_ID' => 'c2'
+    'XDG_GREETER_DATA_DIR' => '/var/lib/lightdm-data/max'
+    'CLUTTER_IM_MODULE' => 'xim'
+    'GIO_LAUNCHED_DESKTOP_FILE_PID' => '3005'
+    'SESSION' => 'ubuntu'
+    'GPG_AGENT_INFO' => '/home/max/.gnupg/S.gpg-agent:0:1'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'DERBY_HOME' => '/usr/lib/jvm/java-8-oracle/db'
+    'QT_LINUX_ACCESSIBILITY_ALWAYS_ON' => '1'
+    'GNOME_KEYRING_CONTROL' => ''
+    'UPSTART_SESSION' => 'unix:abstract=/com/ubuntu/upstart-session/1000/2453'
+    'GTK_MODULES' => 'gail:atk-bridge:unity-gtk-module'
+    'USER' => 'max'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'QT_ACCESSIBILITY' => '1'
+    'XDG_SESSION_PATH' => '/org/freedesktop/DisplayManager/Session0'
+    'XDG_SEAT_PATH' => '/org/freedesktop/DisplayManager/Seat0'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'SESSION_MANAGER' => 'local/comp:@/tmp/.ICE-unix/2692,unix/comp:/tmp/.ICE-unix/2692'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'GIO_LAUNCHED_DESKTOP_FILE' => '/home/max/.local/share/applications/jetbrains-phpstorm.desktop'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'PATH' => '/home/max/bin:/home/max/.local/bin:/home/max/bin:/home/max/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin'
+    'QT_QPA_PLATFORMTHEME' => 'appmenu-qt5'
+    'QT_IM_MODULE' => 'ibus'
+    'XDG_SESSION_TYPE' => 'x11'
+    'PWD' => '/home/max/projects/ayumi-anime'
+    'JOB' => 'unity-settings-daemon'
+    'JAVA_HOME' => '/usr/lib/jvm/java-8-oracle'
+    'XMODIFIERS' => '@im=ibus'
+    'GNOME_KEYRING_PID' => ''
+    'LANG' => 'ru_UA.UTF-8'
+    'GDM_LANG' => 'ru'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'COMPIZ_CONFIG_PROFILE' => 'ubuntu'
+    'IM_CONFIG_PHASE' => '1'
+    'GDMSESSION' => 'ubuntu'
+    'SESSIONTYPE' => 'gnome-session'
+    'GTK2_MODULES' => 'overlay-scrollbar'
+    'HOME' => '/home/max'
+    'XDG_SEAT' => 'seat0'
+    'SHLVL' => '1'
+    'LANGUAGE' => 'ru_UA:ru'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'UPSTART_INSTANCE' => ''
+    'UPSTART_EVENTS' => 'xsession started'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'LOGNAME' => 'max'
+    'COMPIZ_BIN_PATH' => '/usr/bin/'
+    'J2SDKDIR' => '/usr/lib/jvm/java-8-oracle'
+    'QT4_IM_MODULE' => 'xim'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:abstract=/tmp/dbus-GPrCCOTCHf'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/var/lib/snapd/desktop'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'UPSTART_JOB' => 'unity7'
+    'INSTANCE' => ''
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'DISPLAY' => ':0'
+    'J2REDIR' => '/usr/lib/jvm/java-8-oracle/jre'
+    'XDG_CURRENT_DESKTOP' => 'Unity'
+    'GTK_IM_MODULE' => 'ibus'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XAUTHORITY' => '/home/max/.Xauthority'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1514295054.9308
+    'REQUEST_TIME' => 1514295054
+    'argv' => [
+        0 => 'yii'
+        1 => 'send'
+    ]
+    'argc' => 2
+]
+2017-12-26 13:32:31 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined offset: 0 in /home/max/projects/ayumi-anime/console/models/SendSubscr.php:38
+Stack trace:
+#0 /home/max/projects/ayumi-anime/console/models/SendSubscr.php(38): yii\base\ErrorHandler->handleError(8, 'Undefined offse...', '/home/max/proje...', 38, Array)
+#1 /home/max/projects/ayumi-anime/console/controllers/SendController.php(14): console\models\SendSubscr->send()
+#2 [internal function]: console\controllers\SendController->actionMail()
+#3 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Controller.php(144): yii\base\Controller->runAction('', Array)
+#6 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#7 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('send', Array)
+#8 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('send', Array)
+#9 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 /home/max/projects/ayumi-anime/yii(27): yii\base\Application->run()
+#11 {main}
+2017-12-26 13:32:31 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_VTNR' => '7'
+    'XDG_SESSION_ID' => 'c2'
+    'XDG_GREETER_DATA_DIR' => '/var/lib/lightdm-data/max'
+    'CLUTTER_IM_MODULE' => 'xim'
+    'GIO_LAUNCHED_DESKTOP_FILE_PID' => '3005'
+    'SESSION' => 'ubuntu'
+    'GPG_AGENT_INFO' => '/home/max/.gnupg/S.gpg-agent:0:1'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'DERBY_HOME' => '/usr/lib/jvm/java-8-oracle/db'
+    'QT_LINUX_ACCESSIBILITY_ALWAYS_ON' => '1'
+    'GNOME_KEYRING_CONTROL' => ''
+    'UPSTART_SESSION' => 'unix:abstract=/com/ubuntu/upstart-session/1000/2453'
+    'GTK_MODULES' => 'gail:atk-bridge:unity-gtk-module'
+    'USER' => 'max'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'QT_ACCESSIBILITY' => '1'
+    'XDG_SESSION_PATH' => '/org/freedesktop/DisplayManager/Session0'
+    'XDG_SEAT_PATH' => '/org/freedesktop/DisplayManager/Seat0'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'SESSION_MANAGER' => 'local/comp:@/tmp/.ICE-unix/2692,unix/comp:/tmp/.ICE-unix/2692'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'GIO_LAUNCHED_DESKTOP_FILE' => '/home/max/.local/share/applications/jetbrains-phpstorm.desktop'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'PATH' => '/home/max/bin:/home/max/.local/bin:/home/max/bin:/home/max/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin'
+    'QT_QPA_PLATFORMTHEME' => 'appmenu-qt5'
+    'QT_IM_MODULE' => 'ibus'
+    'XDG_SESSION_TYPE' => 'x11'
+    'PWD' => '/home/max/projects/ayumi-anime'
+    'JOB' => 'unity-settings-daemon'
+    'JAVA_HOME' => '/usr/lib/jvm/java-8-oracle'
+    'XMODIFIERS' => '@im=ibus'
+    'GNOME_KEYRING_PID' => ''
+    'LANG' => 'ru_UA.UTF-8'
+    'GDM_LANG' => 'ru'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'COMPIZ_CONFIG_PROFILE' => 'ubuntu'
+    'IM_CONFIG_PHASE' => '1'
+    'GDMSESSION' => 'ubuntu'
+    'SESSIONTYPE' => 'gnome-session'
+    'GTK2_MODULES' => 'overlay-scrollbar'
+    'HOME' => '/home/max'
+    'XDG_SEAT' => 'seat0'
+    'SHLVL' => '1'
+    'LANGUAGE' => 'ru_UA:ru'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'UPSTART_INSTANCE' => ''
+    'UPSTART_EVENTS' => 'xsession started'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'LOGNAME' => 'max'
+    'COMPIZ_BIN_PATH' => '/usr/bin/'
+    'J2SDKDIR' => '/usr/lib/jvm/java-8-oracle'
+    'QT4_IM_MODULE' => 'xim'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:abstract=/tmp/dbus-GPrCCOTCHf'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/var/lib/snapd/desktop'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'UPSTART_JOB' => 'unity7'
+    'INSTANCE' => ''
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'DISPLAY' => ':0'
+    'J2REDIR' => '/usr/lib/jvm/java-8-oracle/jre'
+    'XDG_CURRENT_DESKTOP' => 'Unity'
+    'GTK_IM_MODULE' => 'ibus'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XAUTHORITY' => '/home/max/.Xauthority'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1514295151.5949
+    'REQUEST_TIME' => 1514295151
+    'argv' => [
+        0 => 'yii'
+        1 => 'send'
+    ]
+    'argc' => 2
+]
+2017-12-26 13:33:04 [-][-][-][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: console\models\SendSubscr::description in /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Component.php:148
+Stack trace:
+#0 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/db/BaseActiveRecord.php(288): yii\base\Component->__get('description')
+#1 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/validators/Validator.php(264): yii\db\BaseActiveRecord->__get('description')
+#2 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Model.php(362): yii\validators\Validator->validateAttributes(Object(console\models\SendSubscr), Array)
+#3 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/db/ActiveRecord.php(581): yii\base\Model->validate(Array)
+#4 /home/max/projects/ayumi-anime/console/models/SendSubscr.php(88): yii\db\ActiveRecord->update()
+#5 /home/max/projects/ayumi-anime/console/controllers/SendController.php(14): console\models\SendSubscr->send()
+#6 [internal function]: console\controllers\SendController->actionMail()
+#7 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Controller.php(144): yii\base\Controller->runAction('', Array)
+#10 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#11 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('send', Array)
+#12 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('send', Array)
+#13 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 /home/max/projects/ayumi-anime/yii(27): yii\base\Application->run()
+#15 {main}
+2017-12-26 13:33:01 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_VTNR' => '7'
+    'XDG_SESSION_ID' => 'c2'
+    'XDG_GREETER_DATA_DIR' => '/var/lib/lightdm-data/max'
+    'CLUTTER_IM_MODULE' => 'xim'
+    'GIO_LAUNCHED_DESKTOP_FILE_PID' => '3005'
+    'SESSION' => 'ubuntu'
+    'GPG_AGENT_INFO' => '/home/max/.gnupg/S.gpg-agent:0:1'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'DERBY_HOME' => '/usr/lib/jvm/java-8-oracle/db'
+    'QT_LINUX_ACCESSIBILITY_ALWAYS_ON' => '1'
+    'GNOME_KEYRING_CONTROL' => ''
+    'UPSTART_SESSION' => 'unix:abstract=/com/ubuntu/upstart-session/1000/2453'
+    'GTK_MODULES' => 'gail:atk-bridge:unity-gtk-module'
+    'USER' => 'max'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'QT_ACCESSIBILITY' => '1'
+    'XDG_SESSION_PATH' => '/org/freedesktop/DisplayManager/Session0'
+    'XDG_SEAT_PATH' => '/org/freedesktop/DisplayManager/Seat0'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'SESSION_MANAGER' => 'local/comp:@/tmp/.ICE-unix/2692,unix/comp:/tmp/.ICE-unix/2692'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'GIO_LAUNCHED_DESKTOP_FILE' => '/home/max/.local/share/applications/jetbrains-phpstorm.desktop'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'PATH' => '/home/max/bin:/home/max/.local/bin:/home/max/bin:/home/max/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin'
+    'QT_QPA_PLATFORMTHEME' => 'appmenu-qt5'
+    'QT_IM_MODULE' => 'ibus'
+    'XDG_SESSION_TYPE' => 'x11'
+    'PWD' => '/home/max/projects/ayumi-anime'
+    'JOB' => 'unity-settings-daemon'
+    'JAVA_HOME' => '/usr/lib/jvm/java-8-oracle'
+    'XMODIFIERS' => '@im=ibus'
+    'GNOME_KEYRING_PID' => ''
+    'LANG' => 'ru_UA.UTF-8'
+    'GDM_LANG' => 'ru'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'COMPIZ_CONFIG_PROFILE' => 'ubuntu'
+    'IM_CONFIG_PHASE' => '1'
+    'GDMSESSION' => 'ubuntu'
+    'SESSIONTYPE' => 'gnome-session'
+    'GTK2_MODULES' => 'overlay-scrollbar'
+    'HOME' => '/home/max'
+    'XDG_SEAT' => 'seat0'
+    'SHLVL' => '1'
+    'LANGUAGE' => 'ru_UA:ru'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'UPSTART_INSTANCE' => ''
+    'UPSTART_EVENTS' => 'xsession started'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'LOGNAME' => 'max'
+    'COMPIZ_BIN_PATH' => '/usr/bin/'
+    'J2SDKDIR' => '/usr/lib/jvm/java-8-oracle'
+    'QT4_IM_MODULE' => 'xim'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:abstract=/tmp/dbus-GPrCCOTCHf'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/var/lib/snapd/desktop'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'UPSTART_JOB' => 'unity7'
+    'INSTANCE' => ''
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'DISPLAY' => ':0'
+    'J2REDIR' => '/usr/lib/jvm/java-8-oracle/jre'
+    'XDG_CURRENT_DESKTOP' => 'Unity'
+    'GTK_IM_MODULE' => 'ibus'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XAUTHORITY' => '/home/max/.Xauthority'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1514295181.6273
+    'REQUEST_TIME' => 1514295181
+    'argv' => [
+        0 => 'yii'
+        1 => 'send'
+    ]
+    'argc' => 2
+]
+2017-12-26 14:11:21 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "send". in /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('send', Array)
+#1 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('send', Array)
+#2 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /home/max/projects/ayumi-anime/yii(27): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "send". in /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('send', Array)
+#1 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /home/max/projects/ayumi-anime/yii(27): yii\base\Application->run()
+#3 {main}
+2017-12-26 14:11:21 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_VTNR' => '7'
+    'XDG_SESSION_ID' => 'c2'
+    'XDG_GREETER_DATA_DIR' => '/var/lib/lightdm-data/max'
+    'CLUTTER_IM_MODULE' => 'xim'
+    'GIO_LAUNCHED_DESKTOP_FILE_PID' => '3005'
+    'SESSION' => 'ubuntu'
+    'GPG_AGENT_INFO' => '/home/max/.gnupg/S.gpg-agent:0:1'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'DERBY_HOME' => '/usr/lib/jvm/java-8-oracle/db'
+    'QT_LINUX_ACCESSIBILITY_ALWAYS_ON' => '1'
+    'GNOME_KEYRING_CONTROL' => ''
+    'UPSTART_SESSION' => 'unix:abstract=/com/ubuntu/upstart-session/1000/2453'
+    'GTK_MODULES' => 'gail:atk-bridge:unity-gtk-module'
+    'USER' => 'max'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'QT_ACCESSIBILITY' => '1'
+    'XDG_SESSION_PATH' => '/org/freedesktop/DisplayManager/Session0'
+    'XDG_SEAT_PATH' => '/org/freedesktop/DisplayManager/Seat0'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'SESSION_MANAGER' => 'local/comp:@/tmp/.ICE-unix/2692,unix/comp:/tmp/.ICE-unix/2692'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'GIO_LAUNCHED_DESKTOP_FILE' => '/home/max/.local/share/applications/jetbrains-phpstorm.desktop'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'PATH' => '/home/max/bin:/home/max/.local/bin:/home/max/bin:/home/max/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin'
+    'QT_QPA_PLATFORMTHEME' => 'appmenu-qt5'
+    'QT_IM_MODULE' => 'ibus'
+    'XDG_SESSION_TYPE' => 'x11'
+    'PWD' => '/home/max/projects/ayumi-anime'
+    'JOB' => 'unity-settings-daemon'
+    'JAVA_HOME' => '/usr/lib/jvm/java-8-oracle'
+    'XMODIFIERS' => '@im=ibus'
+    'GNOME_KEYRING_PID' => ''
+    'LANG' => 'ru_UA.UTF-8'
+    'GDM_LANG' => 'ru'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'COMPIZ_CONFIG_PROFILE' => 'ubuntu'
+    'IM_CONFIG_PHASE' => '1'
+    'GDMSESSION' => 'ubuntu'
+    'SESSIONTYPE' => 'gnome-session'
+    'GTK2_MODULES' => 'overlay-scrollbar'
+    'HOME' => '/home/max'
+    'XDG_SEAT' => 'seat0'
+    'SHLVL' => '1'
+    'LANGUAGE' => 'ru_UA:ru'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'UPSTART_INSTANCE' => ''
+    'UPSTART_EVENTS' => 'xsession started'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'LOGNAME' => 'max'
+    'COMPIZ_BIN_PATH' => '/usr/bin/'
+    'J2SDKDIR' => '/usr/lib/jvm/java-8-oracle'
+    'QT4_IM_MODULE' => 'xim'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:abstract=/tmp/dbus-GPrCCOTCHf'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/var/lib/snapd/desktop'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'UPSTART_JOB' => 'unity7'
+    'INSTANCE' => ''
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'DISPLAY' => ':0'
+    'J2REDIR' => '/usr/lib/jvm/java-8-oracle/jre'
+    'XDG_CURRENT_DESKTOP' => 'Unity'
+    'GTK_IM_MODULE' => 'ibus'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XAUTHORITY' => '/home/max/.Xauthority'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1514297481.2761
+    'REQUEST_TIME' => 1514297481
+    'argv' => [
+        0 => 'yii'
+        1 => 'send'
+    ]
+    'argc' => 2
+]
+2017-12-26 14:11:45 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "send". in /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('send', Array)
+#1 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('send', Array)
+#2 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /home/max/projects/ayumi-anime/yii(27): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "send". in /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('send', Array)
+#1 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /home/max/projects/ayumi-anime/yii(27): yii\base\Application->run()
+#3 {main}
+2017-12-26 14:11:45 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_VTNR' => '7'
+    'XDG_SESSION_ID' => 'c2'
+    'XDG_GREETER_DATA_DIR' => '/var/lib/lightdm-data/max'
+    'CLUTTER_IM_MODULE' => 'xim'
+    'GIO_LAUNCHED_DESKTOP_FILE_PID' => '3005'
+    'SESSION' => 'ubuntu'
+    'GPG_AGENT_INFO' => '/home/max/.gnupg/S.gpg-agent:0:1'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'DERBY_HOME' => '/usr/lib/jvm/java-8-oracle/db'
+    'QT_LINUX_ACCESSIBILITY_ALWAYS_ON' => '1'
+    'GNOME_KEYRING_CONTROL' => ''
+    'UPSTART_SESSION' => 'unix:abstract=/com/ubuntu/upstart-session/1000/2453'
+    'GTK_MODULES' => 'gail:atk-bridge:unity-gtk-module'
+    'USER' => 'max'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'QT_ACCESSIBILITY' => '1'
+    'XDG_SESSION_PATH' => '/org/freedesktop/DisplayManager/Session0'
+    'XDG_SEAT_PATH' => '/org/freedesktop/DisplayManager/Seat0'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'SESSION_MANAGER' => 'local/comp:@/tmp/.ICE-unix/2692,unix/comp:/tmp/.ICE-unix/2692'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'GIO_LAUNCHED_DESKTOP_FILE' => '/home/max/.local/share/applications/jetbrains-phpstorm.desktop'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'PATH' => '/home/max/bin:/home/max/.local/bin:/home/max/bin:/home/max/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin'
+    'QT_QPA_PLATFORMTHEME' => 'appmenu-qt5'
+    'QT_IM_MODULE' => 'ibus'
+    'XDG_SESSION_TYPE' => 'x11'
+    'PWD' => '/home/max/projects/ayumi-anime'
+    'JOB' => 'unity-settings-daemon'
+    'JAVA_HOME' => '/usr/lib/jvm/java-8-oracle'
+    'XMODIFIERS' => '@im=ibus'
+    'GNOME_KEYRING_PID' => ''
+    'LANG' => 'ru_UA.UTF-8'
+    'GDM_LANG' => 'ru'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'COMPIZ_CONFIG_PROFILE' => 'ubuntu'
+    'IM_CONFIG_PHASE' => '1'
+    'GDMSESSION' => 'ubuntu'
+    'SESSIONTYPE' => 'gnome-session'
+    'GTK2_MODULES' => 'overlay-scrollbar'
+    'HOME' => '/home/max'
+    'XDG_SEAT' => 'seat0'
+    'SHLVL' => '1'
+    'LANGUAGE' => 'ru_UA:ru'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'UPSTART_INSTANCE' => ''
+    'UPSTART_EVENTS' => 'xsession started'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'LOGNAME' => 'max'
+    'COMPIZ_BIN_PATH' => '/usr/bin/'
+    'J2SDKDIR' => '/usr/lib/jvm/java-8-oracle'
+    'QT4_IM_MODULE' => 'xim'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:abstract=/tmp/dbus-GPrCCOTCHf'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/var/lib/snapd/desktop'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'UPSTART_JOB' => 'unity7'
+    'INSTANCE' => ''
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'DISPLAY' => ':0'
+    'J2REDIR' => '/usr/lib/jvm/java-8-oracle/jre'
+    'XDG_CURRENT_DESKTOP' => 'Unity'
+    'GTK_IM_MODULE' => 'ibus'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XAUTHORITY' => '/home/max/.Xauthority'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1514297505.0875
+    'REQUEST_TIME' => 1514297505
+    'argv' => [
+        0 => 'yii'
+        1 => 'send'
+    ]
+    'argc' => 2
+]
+2017-12-26 14:12:34 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "send". in /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('send', Array)
+#1 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('send', Array)
+#2 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /home/max/projects/ayumi-anime/yii(27): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "send". in /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('send', Array)
+#1 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /home/max/projects/ayumi-anime/yii(27): yii\base\Application->run()
+#3 {main}
+2017-12-26 14:12:33 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_VTNR' => '7'
+    'XDG_SESSION_ID' => 'c2'
+    'XDG_GREETER_DATA_DIR' => '/var/lib/lightdm-data/max'
+    'CLUTTER_IM_MODULE' => 'xim'
+    'GIO_LAUNCHED_DESKTOP_FILE_PID' => '3005'
+    'SESSION' => 'ubuntu'
+    'GPG_AGENT_INFO' => '/home/max/.gnupg/S.gpg-agent:0:1'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'DERBY_HOME' => '/usr/lib/jvm/java-8-oracle/db'
+    'QT_LINUX_ACCESSIBILITY_ALWAYS_ON' => '1'
+    'GNOME_KEYRING_CONTROL' => ''
+    'UPSTART_SESSION' => 'unix:abstract=/com/ubuntu/upstart-session/1000/2453'
+    'GTK_MODULES' => 'gail:atk-bridge:unity-gtk-module'
+    'USER' => 'max'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'QT_ACCESSIBILITY' => '1'
+    'XDG_SESSION_PATH' => '/org/freedesktop/DisplayManager/Session0'
+    'XDG_SEAT_PATH' => '/org/freedesktop/DisplayManager/Seat0'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'SESSION_MANAGER' => 'local/comp:@/tmp/.ICE-unix/2692,unix/comp:/tmp/.ICE-unix/2692'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'GIO_LAUNCHED_DESKTOP_FILE' => '/home/max/.local/share/applications/jetbrains-phpstorm.desktop'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'PATH' => '/home/max/bin:/home/max/.local/bin:/home/max/bin:/home/max/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin'
+    'QT_QPA_PLATFORMTHEME' => 'appmenu-qt5'
+    'QT_IM_MODULE' => 'ibus'
+    'XDG_SESSION_TYPE' => 'x11'
+    'PWD' => '/home/max/projects/ayumi-anime'
+    'JOB' => 'unity-settings-daemon'
+    'JAVA_HOME' => '/usr/lib/jvm/java-8-oracle'
+    'XMODIFIERS' => '@im=ibus'
+    'GNOME_KEYRING_PID' => ''
+    'LANG' => 'ru_UA.UTF-8'
+    'GDM_LANG' => 'ru'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'COMPIZ_CONFIG_PROFILE' => 'ubuntu'
+    'IM_CONFIG_PHASE' => '1'
+    'GDMSESSION' => 'ubuntu'
+    'SESSIONTYPE' => 'gnome-session'
+    'GTK2_MODULES' => 'overlay-scrollbar'
+    'HOME' => '/home/max'
+    'XDG_SEAT' => 'seat0'
+    'SHLVL' => '1'
+    'LANGUAGE' => 'ru_UA:ru'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'UPSTART_INSTANCE' => ''
+    'UPSTART_EVENTS' => 'xsession started'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'LOGNAME' => 'max'
+    'COMPIZ_BIN_PATH' => '/usr/bin/'
+    'J2SDKDIR' => '/usr/lib/jvm/java-8-oracle'
+    'QT4_IM_MODULE' => 'xim'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:abstract=/tmp/dbus-GPrCCOTCHf'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/var/lib/snapd/desktop'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'UPSTART_JOB' => 'unity7'
+    'INSTANCE' => ''
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'DISPLAY' => ':0'
+    'J2REDIR' => '/usr/lib/jvm/java-8-oracle/jre'
+    'XDG_CURRENT_DESKTOP' => 'Unity'
+    'GTK_IM_MODULE' => 'ibus'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XAUTHORITY' => '/home/max/.Xauthority'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1514297553.9893
+    'REQUEST_TIME' => 1514297553
+    'argv' => [
+        0 => 'yii'
+        1 => 'send'
+    ]
+    'argc' => 2
+]
+2017-12-26 14:13:14 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "send". in /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('send', Array)
+#1 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('send', Array)
+#2 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /home/max/projects/ayumi-anime/yii(27): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "send". in /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('send', Array)
+#1 /home/max/projects/ayumi-anime/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /home/max/projects/ayumi-anime/yii(27): yii\base\Application->run()
+#3 {main}
+2017-12-26 14:13:14 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_VTNR' => '7'
+    'XDG_SESSION_ID' => 'c2'
+    'XDG_GREETER_DATA_DIR' => '/var/lib/lightdm-data/max'
+    'CLUTTER_IM_MODULE' => 'xim'
+    'GIO_LAUNCHED_DESKTOP_FILE_PID' => '3005'
+    'SESSION' => 'ubuntu'
+    'GPG_AGENT_INFO' => '/home/max/.gnupg/S.gpg-agent:0:1'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'DERBY_HOME' => '/usr/lib/jvm/java-8-oracle/db'
+    'QT_LINUX_ACCESSIBILITY_ALWAYS_ON' => '1'
+    'GNOME_KEYRING_CONTROL' => ''
+    'UPSTART_SESSION' => 'unix:abstract=/com/ubuntu/upstart-session/1000/2453'
+    'GTK_MODULES' => 'gail:atk-bridge:unity-gtk-module'
+    'USER' => 'max'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'QT_ACCESSIBILITY' => '1'
+    'XDG_SESSION_PATH' => '/org/freedesktop/DisplayManager/Session0'
+    'XDG_SEAT_PATH' => '/org/freedesktop/DisplayManager/Seat0'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'SESSION_MANAGER' => 'local/comp:@/tmp/.ICE-unix/2692,unix/comp:/tmp/.ICE-unix/2692'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'GIO_LAUNCHED_DESKTOP_FILE' => '/home/max/.local/share/applications/jetbrains-phpstorm.desktop'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'PATH' => '/home/max/bin:/home/max/.local/bin:/home/max/bin:/home/max/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin'
+    'QT_QPA_PLATFORMTHEME' => 'appmenu-qt5'
+    'QT_IM_MODULE' => 'ibus'
+    'XDG_SESSION_TYPE' => 'x11'
+    'PWD' => '/home/max/projects/ayumi-anime'
+    'JOB' => 'unity-settings-daemon'
+    'JAVA_HOME' => '/usr/lib/jvm/java-8-oracle'
+    'XMODIFIERS' => '@im=ibus'
+    'GNOME_KEYRING_PID' => ''
+    'LANG' => 'ru_UA.UTF-8'
+    'GDM_LANG' => 'ru'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'COMPIZ_CONFIG_PROFILE' => 'ubuntu'
+    'IM_CONFIG_PHASE' => '1'
+    'GDMSESSION' => 'ubuntu'
+    'SESSIONTYPE' => 'gnome-session'
+    'GTK2_MODULES' => 'overlay-scrollbar'
+    'HOME' => '/home/max'
+    'XDG_SEAT' => 'seat0'
+    'SHLVL' => '1'
+    'LANGUAGE' => 'ru_UA:ru'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'UPSTART_INSTANCE' => ''
+    'UPSTART_EVENTS' => 'xsession started'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'LOGNAME' => 'max'
+    'COMPIZ_BIN_PATH' => '/usr/bin/'
+    'J2SDKDIR' => '/usr/lib/jvm/java-8-oracle'
+    'QT4_IM_MODULE' => 'xim'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:abstract=/tmp/dbus-GPrCCOTCHf'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/var/lib/snapd/desktop'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'UPSTART_JOB' => 'unity7'
+    'INSTANCE' => ''
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'DISPLAY' => ':0'
+    'J2REDIR' => '/usr/lib/jvm/java-8-oracle/jre'
+    'XDG_CURRENT_DESKTOP' => 'Unity'
+    'GTK_IM_MODULE' => 'ibus'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XAUTHORITY' => '/home/max/.Xauthority'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1514297594.2214
+    'REQUEST_TIME' => 1514297594
+    'argv' => [
+        0 => 'yii'
+        1 => 'send'
+    ]
+    'argc' => 2
+]

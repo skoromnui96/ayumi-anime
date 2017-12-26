@@ -23,7 +23,6 @@ class m170317_090234_page extends Migration
                 'name'=> $this->string(255)->notNull(),
                 'show_page'=> $this->string()->notNull()->defaultValue('No'),
                 'slug'=> $this->string(255)->notNull(),
-                'title'=> $this->string(255)->notNull(),
                 'text'=> $this->text()->notNull(),
             ],$tableOptions
         );

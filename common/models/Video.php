@@ -3,6 +3,7 @@
 namespace common\models;
 
 use common\models\VideoUpload;
+use console\models\SendSubscr;
 use dvizh\cart\interfaces\CartElement;
 use maxmirazh33\file\Behavior;
 use Yii;

@@ -6,22 +6,15 @@
 /* @var $exception Exception */
 
 use yii\helpers\Html;
+use yii\helpers\Url;
 
-$this->title = $name;
+$this->title = 'Error 404:Page not found';
 ?>
-<div class="site-error">
 
-    <h1><?= Html::encode($this->title) ?></h1>
-
-    <div class="alert alert-danger">
-        <?= nl2br(Html::encode($message)) ?>
+<section class="s-404">
+    <div class="section-title">
+        <h1>ERROR 404: Page not found</h1>
+        <p>The page you are loooking for was moved, removed, renamed or might never existed. Head back to the homepage.</p>
+        <a href="<?= Url::to(['site/index'])?>" class="button colored"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i> Back to Home page</a>
     </div>
-
-    <p>
-        The above error occurred while the Web server was processing your request.
-    </p>
-    <p>
-        Please contact us if you think this is a server error. Thank you.
-    </p>
-
-</div>
+</section>

@@ -11,8 +11,8 @@ use dvizh\field\widgets\Show;
 
 /* @var $this yii\web\View */
 
-$this->title = 'Card View';
-
+$this->title = 'Shop';
+$this->params['breadcrumbs'][] = $this->title;
 ?>
 <section class="s-shop">
     <div class="container">

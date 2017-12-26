@@ -3,6 +3,7 @@
 /* @var $this \yii\web\View */
 /* @var $content string */
 
+use common\models\Page;
 use yii\helpers\Html;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
@@ -65,8 +66,10 @@ AppAsset::register($this);
                                 <a href="#">MORE</a>
                                 <div class="more">
                                     <ul>
-                                        <li><a href="about-me.html">About me</a></li>
-                                        <li><a href="sign-up.html">Spoil me</a></li>
+                                        <?php $pages = Page::find()->all() ?>
+                                        <?php foreach ($pages as $page): ?>
+                                            <li><a href="<?=Url::to(['/page/index', 'id' => $page->id]) ?>"><?=$page->name?></a></li>
+                                        <?php endforeach; ?>
                                     </ul>
                                 </div>
                             </li>
@@ -99,7 +102,6 @@ AppAsset::register($this);
                 'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
             ]
         ) ?>
-        <?= Alert::widget() ?>
     </div>
 </div>
 

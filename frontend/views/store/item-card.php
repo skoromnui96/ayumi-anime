@@ -13,7 +13,9 @@ use dvizh\field\widgets\Show;
 
 /* @var $this yii\web\View */
 
-$this->title = 'Item ';
+$this->title = 'Shop'. ': ' . $product->name;
+$this->params['breadcrumbs'][] = ['label' => 'Shop', 'url' => ['card-view']];
+$this->params['breadcrumbs'][] = ['label' => $product->name,  $product->id];
 
 ?>
 

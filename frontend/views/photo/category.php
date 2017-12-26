@@ -4,7 +4,8 @@ use yii\bootstrap\ActiveForm;
 use yii\helpers\Html;
 use yii\helpers\Url;
 use yii\widgets\LinkPager;
-
+$this->title = 'Photos Category';
+$this->params['breadcrumbs'][] = $this->title;
 ?>
 <section class="s-gallery">
     <div class="container">

@@ -2,6 +2,9 @@
 
 use yii\helpers\Url;
 
+$this->title = 'News'. ' ' . $news->name;
+$this->params['breadcrumbs'][] = ['label' => 'News', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => $news->name,  $news->id];
 ?>
 
 <section class="s-news-inside">

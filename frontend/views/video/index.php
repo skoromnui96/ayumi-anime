@@ -4,6 +4,8 @@ use dvizh\cart\widgets\BuyButton;
 use yii\helpers\Url;
 use yii\widgets\LinkPager;
 
+$this->title = 'Erotic Videos';
+$this->params['breadcrumbs'][] = $this->title;
 ?>
 
 <section class="s-videos">

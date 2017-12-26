@@ -58,7 +58,7 @@ CREATE TABLE `cart` (
   PRIMARY KEY (`id`),
   KEY `user_id` (`user_id`),
   KEY `tmp_user_id` (`tmp_user_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=57 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=61 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -67,7 +67,7 @@ CREATE TABLE `cart` (
 
 LOCK TABLES `cart` WRITE;
 /*!40000 ALTER TABLE `cart` DISABLE KEYS */;
-INSERT INTO `cart` VALUES (1,'','0e3d2b349387e5f06faa82338836569b',1513435566,1513440252),(2,'','00c7873029304dd317454354e29cb776',1513443868,1513449030),(3,'','e66deca5241b6d7512298b20ddb8eb38',1513532950,1513556234),(4,'','7c9fbed3c8f5203913399bb1dace13ec',1513588083,1513596479),(5,'','9a86fa6476f9569293dee1f0b505ed86',1513600971,1513604196),(6,'','f5451fd9f5706b4451558ace6355b3f6',1513607543,1513609439),(7,'','89eb05c20b275b0acca8f909b1ac3492',1513609643,1513609643),(8,'','6802159cf30374b365fb1009f5204483',1513609712,1513609712),(9,'','c7c8d72ab36e59c89f1b356c9d805544',1513609750,1513609750),(10,'','dcb30b8d5eb937fb3085b2dc1e129992',1513609953,1513609953),(11,'','f7814d74a3f690489d1f26923e7b3cd9',1513711655,1513711687),(12,'','e3056470447284311200f86fad7470c5',1513713195,1513716169),(13,'','958698c9143713f751a44efea5dadab9',1513771432,1513771820),(14,'','d51262802ab195259355bed4f1a4a9c7',1513773506,1513774277),(15,'','903f62e5da515a4989b6dd367d02d034',1513778363,1513781700),(16,'','935436482966d7caa2ce22101089f52a',1513781878,1513781878),(17,'','401a9976a09db557a686a38ae880d14e',1513781962,1513781964),(18,'','45562ed68ca7fd0e777859a8e35bd823',1513782157,1513782161),(19,'','0a3a8a0e627196546013b587f719db35',1513782437,1513789248),(20,'','d47d84108e857a42266b566370b6c305',1513789720,1513790307),(21,'','d1fb92350b6efe7217ddc454cbf96eb6',1513791059,1513792637),(22,'','6670960393c5f462c0a698b6e58dc7a1',1513796070,1513796070),(23,'','81b5a40473ed504c1759168d7458173f',1513796341,1513796560),(24,'','d55cd668eb47894a9127b3f908f58182',1513796764,1513797391),(25,'','4d0f2a5135d0d02fa58687319d989ce8',1513797803,1513797803),(26,'','ba13c99e0c7fdd682e900942afa37b4b',1513799731,1513800334),(27,'','3d43854d47951163665bf3b11513704c',1513804241,1513804279),(28,'','b2eb00682f994485e8a13325e30d0a4c',1513807506,1513807506),(29,'','0613386e4c6b16b7ecca917594ae265c',1513807648,1513807648),(30,'','f323ea988ab498174bb96fd06c235c6d',1513807861,1513807861),(31,'','1121e01dd1e6203e8953d821c5b7bd57',1513807901,1513808736),(32,'','04c5b4ebf2e1c412d8c051c39c23c2a9',1513808906,1513808906),(33,'','7e58b21dd685879fbd8d9540c5fe3764',1513809994,1513809994),(34,'','64e91a35dc9a878599e774b858c2e057',1513850388,1513850388),(35,'','30f0f433871485f30c1de26143dc149a',1513850435,1513850717),(36,'','c26cac827e0b170cff1134492c8b15ad',1513851901,1513852487),(37,'','030bc2d5695ae08c418ef6b5275bf455',1513852838,1513852838),(38,'','197edfab37ab41d71311185544dd70a8',1513857945,1513858912),(39,'','e7695e173bcd4f34888b968e9282a813',1513859657,1513859686),(40,'','09e8c84c76a449dd74bbd4b3b2da2f1d',1513861031,1513861031),(41,'','c7da8658a3cbb21652ffd71c751f684d',1513861917,1513861917),(42,'','104bcb403816bd8a37fbac6c089016f9',1513866309,1513871191),(43,'','522b977dacc594d6809d670161cf3db9',1513877175,1513877175),(44,'','68fb1bbbb22446415e8ca16d3389b07f',1513887188,1513887188),(45,'','c135d4a9cc060039b79eba680c99eb7b',1513887780,1513887780),(46,'','d8b681f7f4082f8580e4c05506f5c58e',1513888526,1513888613),(47,'','8ad7e3d1b515901593c5c0e7a15c5e19',1513891154,1513891154),(48,'','a9999ac1e2ce453bbe41de1ab8f7d7f3',1513893201,1513896309),(49,'','0d43b72124e4d9e38b61ede77e82eb9e',1513899574,1513899574),(50,'','ef45aa624a9a1e23c55b6e725ff448ee',1513936851,1513936851),(51,'','5e8cfd04f298853559e01e24baf4c1ba',1513936879,1513944798),(52,'','ba95c5cab2e354ac8d2297646d90e9bb',1513944998,1513945119),(53,'','7af7f705dd2c864f398a2130cd8f13f4',1513945233,1513945495),(54,'','d839bd2771bc8483a0c8b9a7c16dd16e',1513946362,1513951472),(55,'','a03e26e4105f087264a68b2771f94c2a',1513950934,1514201056),(56,'','457dc22eaad3edbdbd54d56ad0cd0e6a',1514196052,1514196061);
+INSERT INTO `cart` VALUES (1,'','0e3d2b349387e5f06faa82338836569b',1513435566,1513440252),(2,'','00c7873029304dd317454354e29cb776',1513443868,1513449030),(3,'','e66deca5241b6d7512298b20ddb8eb38',1513532950,1513556234),(4,'','7c9fbed3c8f5203913399bb1dace13ec',1513588083,1513596479),(5,'','9a86fa6476f9569293dee1f0b505ed86',1513600971,1513604196),(6,'','f5451fd9f5706b4451558ace6355b3f6',1513607543,1513609439),(7,'','89eb05c20b275b0acca8f909b1ac3492',1513609643,1513609643),(8,'','6802159cf30374b365fb1009f5204483',1513609712,1513609712),(9,'','c7c8d72ab36e59c89f1b356c9d805544',1513609750,1513609750),(10,'','dcb30b8d5eb937fb3085b2dc1e129992',1513609953,1513609953),(11,'','f7814d74a3f690489d1f26923e7b3cd9',1513711655,1513711687),(12,'','e3056470447284311200f86fad7470c5',1513713195,1513716169),(13,'','958698c9143713f751a44efea5dadab9',1513771432,1513771820),(14,'','d51262802ab195259355bed4f1a4a9c7',1513773506,1513774277),(15,'','903f62e5da515a4989b6dd367d02d034',1513778363,1513781700),(16,'','935436482966d7caa2ce22101089f52a',1513781878,1513781878),(17,'','401a9976a09db557a686a38ae880d14e',1513781962,1513781964),(18,'','45562ed68ca7fd0e777859a8e35bd823',1513782157,1513782161),(19,'','0a3a8a0e627196546013b587f719db35',1513782437,1513789248),(20,'','d47d84108e857a42266b566370b6c305',1513789720,1513790307),(21,'','d1fb92350b6efe7217ddc454cbf96eb6',1513791059,1513792637),(22,'','6670960393c5f462c0a698b6e58dc7a1',1513796070,1513796070),(23,'','81b5a40473ed504c1759168d7458173f',1513796341,1513796560),(24,'','d55cd668eb47894a9127b3f908f58182',1513796764,1513797391),(25,'','4d0f2a5135d0d02fa58687319d989ce8',1513797803,1513797803),(26,'','ba13c99e0c7fdd682e900942afa37b4b',1513799731,1513800334),(27,'','3d43854d47951163665bf3b11513704c',1513804241,1513804279),(28,'','b2eb00682f994485e8a13325e30d0a4c',1513807506,1513807506),(29,'','0613386e4c6b16b7ecca917594ae265c',1513807648,1513807648),(30,'','f323ea988ab498174bb96fd06c235c6d',1513807861,1513807861),(31,'','1121e01dd1e6203e8953d821c5b7bd57',1513807901,1513808736),(32,'','04c5b4ebf2e1c412d8c051c39c23c2a9',1513808906,1513808906),(33,'','7e58b21dd685879fbd8d9540c5fe3764',1513809994,1513809994),(34,'','64e91a35dc9a878599e774b858c2e057',1513850388,1513850388),(35,'','30f0f433871485f30c1de26143dc149a',1513850435,1513850717),(36,'','c26cac827e0b170cff1134492c8b15ad',1513851901,1513852487),(37,'','030bc2d5695ae08c418ef6b5275bf455',1513852838,1513852838),(38,'','197edfab37ab41d71311185544dd70a8',1513857945,1513858912),(39,'','e7695e173bcd4f34888b968e9282a813',1513859657,1513859686),(40,'','09e8c84c76a449dd74bbd4b3b2da2f1d',1513861031,1513861031),(41,'','c7da8658a3cbb21652ffd71c751f684d',1513861917,1513861917),(42,'','104bcb403816bd8a37fbac6c089016f9',1513866309,1513871191),(43,'','522b977dacc594d6809d670161cf3db9',1513877175,1513877175),(44,'','68fb1bbbb22446415e8ca16d3389b07f',1513887188,1513887188),(45,'','c135d4a9cc060039b79eba680c99eb7b',1513887780,1513887780),(46,'','d8b681f7f4082f8580e4c05506f5c58e',1513888526,1513888613),(47,'','8ad7e3d1b515901593c5c0e7a15c5e19',1513891154,1513891154),(48,'','a9999ac1e2ce453bbe41de1ab8f7d7f3',1513893201,1513896309),(49,'','0d43b72124e4d9e38b61ede77e82eb9e',1513899574,1513899574),(50,'','ef45aa624a9a1e23c55b6e725ff448ee',1513936851,1513936851),(51,'','5e8cfd04f298853559e01e24baf4c1ba',1513936879,1513944798),(52,'','ba95c5cab2e354ac8d2297646d90e9bb',1513944998,1513945119),(53,'','7af7f705dd2c864f398a2130cd8f13f4',1513945233,1513945495),(54,'','d839bd2771bc8483a0c8b9a7c16dd16e',1513946362,1513951472),(55,'','a03e26e4105f087264a68b2771f94c2a',1513950934,1514201056),(56,'','457dc22eaad3edbdbd54d56ad0cd0e6a',1514196052,1514196061),(57,'','c0a5bc26a4f8ac0fdf7ca9929083ff6c',1514275971,1514276751),(58,'','e7925a32d55d5fd85c5afeb1c4820dcb',1514284948,1514284948),(59,'','743e1db276dab123a1628423d35ce6b0',1514289851,1514289851),(60,'','c62b42971759f5b41e2e57bbd7895ad7',1514293059,1514293059);
 /*!40000 ALTER TABLE `cart` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -438,7 +438,7 @@ CREATE TABLE `image` (
   `gallery_id` varchar(150) DEFAULT NULL,
   `sort` int(15) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=26 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=29 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -471,7 +471,7 @@ CREATE TABLE `migration` (
 
 LOCK TABLES `migration` WRITE;
 /*!40000 ALTER TABLE `migration` DISABLE KEYS */;
-INSERT INTO `migration` VALUES ('m000000_000000_base',1513432780),('m140209_132017_init',1513432784),('m140403_174025_create_account_table',1513432786),('m140504_113157_update_tables',1513432790),('m140504_130429_create_token_table',1513432792),('m140506_102106_rbac_init',1513432782),('m140618_045255_create_settings',1513432860),('m140622_111540_create_image_table',1513432842),('m140830_171933_fix_ip_field',1513432793),('m140830_172703_change_account_table_name',1513432793),('m141222_110026_update_ip_field',1513432794),('m141222_135246_alter_username_length',1513432795),('m150614_103145_update_social_account_table',1513432797),('m150623_212711_fix_username_notnull',1513432797),('m151126_091910_add_unique_index',1513432860),('m151218_234654_add_timezone_to_profile',1513432798),('m160506_062849_create_cart',1513432830),('m160513_051524_Mass',1513432824),('m160513_121415_Mass',1513432835),('m160518_123713_Mass',1513432844),('m160521_112619_Mass',1513432810),('m160613_134415_Mass',1513432841),('m160929_103127_add_last_login_at_to_user_table',1513432798),('m161110_050319_create_assigment_fields',1513432826),('m161110_050319_create_organization_fields',1513432826),('m161129_101511_promocode_to_item',1513432844),('m161212_124011_certificate_certificate',1513432848),('m161212_124011_certificate_certificate_to_item',1513432849),('m161212_124111_certificate_use',1513432849),('m170116_073411_altertable_promocode',1513432846),('m170116_073511_promocode_used',1513432846),('m170117_131738_altertable_promocode_type',1513432847),('m170118_075411_promocode_condition',1513432847),('m170118_075611_promocode_to_condition',1513432847),('m170303_071750_altertable_promocode_cumulative',1513432847),('m170311_230319_create_is_deleted_field',1513432827),('m170311_234119_create_element_name_field',1513432828),('m170317_090004_news',1513951159),('m170317_090025_slider',1513951159),('m170317_090234_page',1513951159),('m170418_170456_register_user',1513432799),('m170419_110711_model_name_field',1513432841),('m170425_115443_latin_value_field',1513432836),('m170425_150102_base_migration',1513432799),('m170426_105633_modif_type_field',1513432810),('m170426_174712_insert_user_role',1513432800),('m170603_130822_add_sku_fields',1513432811),('m170603_130826_add_barcode_fields',1513432813),('m170603_130911_modification_to_option_table',1513432813),('m170628_150322_is_option_field',1513432836),('m170907_052038_rbac_add_index_on_auth_assignment_user_id',1513432782),('m171218_101337_create_top_videos_table',1513951160),('m171219_141119_create_photo_table',1513951160),('m171220_094604_add_like_column',1513951161),('m171220_131041_create_photo_category_table',1513951162),('m171221_101723_create_video_table',1514194049),('m171225_102723_add_date_column',1514198340),('m230217_134711_altertable_promocode_used',1513432848),('m260519_000708_alter_cart_table',1513432831),('m270920_074737_add_column_comment_to_cart_element_table',1513432831),('m314315_215216_create_seo_table',1513432842);
+INSERT INTO `migration` VALUES ('m000000_000000_base',1513432780),('m140209_132017_init',1513432784),('m140403_174025_create_account_table',1513432786),('m140504_113157_update_tables',1513432790),('m140504_130429_create_token_table',1513432792),('m140506_102106_rbac_init',1513432782),('m140618_045255_create_settings',1513432860),('m140622_111540_create_image_table',1513432842),('m140830_171933_fix_ip_field',1513432793),('m140830_172703_change_account_table_name',1513432793),('m141222_110026_update_ip_field',1513432794),('m141222_135246_alter_username_length',1513432795),('m150614_103145_update_social_account_table',1513432797),('m150623_212711_fix_username_notnull',1513432797),('m151126_091910_add_unique_index',1513432860),('m151218_234654_add_timezone_to_profile',1513432798),('m160506_062849_create_cart',1513432830),('m160513_051524_Mass',1513432824),('m160513_121415_Mass',1513432835),('m160518_123713_Mass',1513432844),('m160521_112619_Mass',1513432810),('m160613_134415_Mass',1513432841),('m160929_103127_add_last_login_at_to_user_table',1513432798),('m161110_050319_create_assigment_fields',1513432826),('m161110_050319_create_organization_fields',1513432826),('m161129_101511_promocode_to_item',1513432844),('m161212_124011_certificate_certificate',1513432848),('m161212_124011_certificate_certificate_to_item',1513432849),('m161212_124111_certificate_use',1513432849),('m170116_073411_altertable_promocode',1513432846),('m170116_073511_promocode_used',1513432846),('m170117_131738_altertable_promocode_type',1513432847),('m170118_075411_promocode_condition',1513432847),('m170118_075611_promocode_to_condition',1513432847),('m170303_071750_altertable_promocode_cumulative',1513432847),('m170311_230319_create_is_deleted_field',1513432827),('m170311_234119_create_element_name_field',1513432828),('m170317_090004_news',1513951159),('m170317_090025_slider',1513951159),('m170317_090234_page',1514301794),('m170418_170456_register_user',1513432799),('m170419_110711_model_name_field',1513432841),('m170425_115443_latin_value_field',1513432836),('m170425_150102_base_migration',1513432799),('m170426_105633_modif_type_field',1513432810),('m170426_174712_insert_user_role',1513432800),('m170603_130822_add_sku_fields',1513432811),('m170603_130826_add_barcode_fields',1513432813),('m170603_130911_modification_to_option_table',1513432813),('m170628_150322_is_option_field',1513432836),('m170907_052038_rbac_add_index_on_auth_assignment_user_id',1513432782),('m171218_101337_create_top_videos_table',1513951160),('m171219_141119_create_photo_table',1513951160),('m171220_094604_add_like_column',1513951161),('m171220_131041_create_photo_category_table',1513951162),('m171221_101723_create_video_table',1514194049),('m171225_102723_add_date_column',1514198340),('m171226_085709_create_subscribe_table',1514282111),('m171226_094946_create_send_subscr_table',1514295120),('m230217_134711_altertable_promocode_used',1513432848),('m260519_000708_alter_cart_table',1513432831),('m270920_074737_add_column_comment_to_cart_element_table',1513432831),('m314315_215216_create_seo_table',1513432842);
 /*!40000 ALTER TABLE `migration` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -501,7 +501,7 @@ CREATE TABLE `news` (
 
 LOCK TABLES `news` WRITE;
 /*!40000 ALTER TABLE `news` DISABLE KEYS */;
-INSERT INTO `news` VALUES (1,'Name Title','<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><img src=\"http://ayumi-anime.webproject.com.ua/www/img/blog/bg.jpg\" alt=\"\"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt</p><img src=\"http://ayumi-anime.webproject.com.ua/www/img/blog/bg2.jpg\" alt=\"\"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus,</p><p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolo repellendus.</p>','name-title','2017-12-19',1,1,18);
+INSERT INTO `news` VALUES (1,'Name Title','<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><img src=\"http://ayumi-anime.webproject.com.ua/www/img/blog/bg.jpg\" alt=\"\"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt</p><img src=\"http://ayumi-anime.webproject.com.ua/www/img/blog/bg2.jpg\" alt=\"\"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus,</p><p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolo repellendus.</p>','name-title','2017-12-19',1,1,31);
 /*!40000 ALTER TABLE `news` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -814,10 +814,9 @@ CREATE TABLE `page` (
   `name` varchar(255) NOT NULL,
   `show_page` varchar(255) NOT NULL DEFAULT 'No',
   `slug` varchar(255) NOT NULL,
-  `title` varchar(255) NOT NULL,
   `text` text NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -826,6 +825,7 @@ CREATE TABLE `page` (
 
 LOCK TABLES `page` WRITE;
 /*!40000 ALTER TABLE `page` DISABLE KEYS */;
+INSERT INTO `page` VALUES (1,'About me','1','asdasdad','	<section class=\"s-about-me\">\r\n		<div class=\"container\">\r\n			<div class=\"row\">\r\n				<div class=\"col-md-6 col-sm-6 col-xs-7\">\r\n					<div class=\"title-text\">\r\n						<h1 class=\"clearfix\">\r\n							<span class=\"ayumi\">AYUMI</span>\r\n							<span class=\"anime\">ANIME</span>\r\n						</h1>\r\n						<p>“I love to share my energy with you, to make you happy and enjoy my life! I love my every Fan and appreciate any Heart or Support!”</p>\r\n					</div>\r\n				</div>\r\n			</div>\r\n			<div class=\"about-me\">\r\n				<div class=\"col-md-8 col-sm-9\">\r\n					<div class=\"section-title\">\r\n						<h4>auymi anime</h4>\r\n						<h2>About me</h2>\r\n						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>\r\n						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>\r\n						<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>\r\n						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>\r\n					</div>\r\n				</div>\r\n			</div>\r\n		</div>\r\n	</section>'),(2,'wqeq','0','wqeq','<h1>fgdfgasdaaaaaaaaaaaaaaaaaaaaaaaaaa</h1><h1><br></h1>');
 /*!40000 ALTER TABLE `page` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1212,6 +1212,31 @@ CREATE TABLE `rbac_auth_rule` (
 LOCK TABLES `rbac_auth_rule` WRITE;
 /*!40000 ALTER TABLE `rbac_auth_rule` DISABLE KEYS */;
 /*!40000 ALTER TABLE `rbac_auth_rule` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `send_subscr`
+--
+
+DROP TABLE IF EXISTS `send_subscr`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `send_subscr` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `video_id` int(11) NOT NULL,
+  `subscriber_id` int(11) NOT NULL,
+  `end` tinyint(1) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `send_subscr`
+--
+
+LOCK TABLES `send_subscr` WRITE;
+/*!40000 ALTER TABLE `send_subscr` DISABLE KEYS */;
+/*!40000 ALTER TABLE `send_subscr` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -1755,6 +1780,31 @@ LOCK TABLES `social_account` WRITE;
 UNLOCK TABLES;
 
 --
+-- Table structure for table `subscribe`
+--
+
+DROP TABLE IF EXISTS `subscribe`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `subscribe` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `email` varchar(255) NOT NULL,
+  `addtime` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `subscribe`
+--
+
+LOCK TABLES `subscribe` WRITE;
+/*!40000 ALTER TABLE `subscribe` DISABLE KEYS */;
+INSERT INTO `subscribe` VALUES (1,'myfirstwork121@gmail.com','1514284948'),(2,'max@gmail.com','1514295304');
+/*!40000 ALTER TABLE `subscribe` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `token`
 --
 
@@ -1838,7 +1888,7 @@ CREATE TABLE `user` (
 
 LOCK TABLES `user` WRITE;
 /*!40000 ALTER TABLE `user` DISABLE KEYS */;
-INSERT INTO `user` VALUES (1,'administrator','administrator@localhost.lc','$2y$10$C5nrtr7JOXXz0CZ/5aymjOu3Vx3iTOm9HcqpPs3D7ZiCXoVOFKAn.','qI8YZpXSQF1dujgB0GH9361xDfcB8Qwl',1492070371,NULL,NULL,'127.0.0.1',1492070371,1492070371,0,1514201937);
+INSERT INTO `user` VALUES (1,'administrator','administrator@localhost.lc','$2y$10$C5nrtr7JOXXz0CZ/5aymjOu3Vx3iTOm9HcqpPs3D7ZiCXoVOFKAn.','qI8YZpXSQF1dujgB0GH9361xDfcB8Qwl',1492070371,NULL,NULL,'127.0.0.1',1492070371,1492070371,0,1514301514);
 /*!40000 ALTER TABLE `user` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1863,7 +1913,7 @@ CREATE TABLE `video` (
   `old_price` float DEFAULT NULL,
   `date` date DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=26 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=34 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -1872,7 +1922,7 @@ CREATE TABLE `video` (
 
 LOCK TABLES `video` WRITE;
 /*!40000 ALTER TABLE `video` DISABLE KEYS */;
-INSERT INTO `video` VALUES (24,'Scarlett Knightley - Passionate Love Making After Being Away','Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.','Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.','f5a94ee3d34e3a3618432c14955d9d9f.mp4',47,0,0,NULL,19.99,24.99,'2017-12-25'),(25,'Scarlett Knightley - Passionate Love Making After Being Away','Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.','Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.','a47f3bc035b0883665caffa818af8518.mp4',3,0,0,NULL,12,15,NULL);
+INSERT INTO `video` VALUES (24,'Scarlett Knightley - Passionate Love Making After Being Away','Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.','Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.','f5a94ee3d34e3a3618432c14955d9d9f.mp4',54,0,0,NULL,19.99,24.99,'2017-12-25'),(25,'Scarlett Knightley - Passionate Love Making After Being Away','Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.','Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.','a47f3bc035b0883665caffa818af8518.mp4',29,0,0,NULL,12,15,NULL);
 /*!40000 ALTER TABLE `video` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -1885,4 +1935,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2017-12-25 13:50:09
+-- Dump completed on 2017-12-26 18:01:02

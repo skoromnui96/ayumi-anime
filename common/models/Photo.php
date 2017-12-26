@@ -106,8 +106,4 @@ class Photo extends ActiveRecord
             ->viaTable('{{%photo_to_photo_category}}', ['product_id' => 'id']);
     }
 
-    public function getLikes() {
-        $likes = self::find()->where(['id' => $this->id]);
-        return $likes;
-    }
 }

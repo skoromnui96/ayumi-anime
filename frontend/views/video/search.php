@@ -4,12 +4,14 @@ use dvizh\cart\widgets\BuyButton;
 use yii\helpers\Url;
 use yii\widgets\LinkPager;
 
+$this->title = 'Search';
+$this->params['breadcrumbs'][] = $this->title;
 ?>
     <section class="s-videos">
         <div class="container">
             <div class="section-title">
-                <h4><?=$search ?></h4>
-                <h2>Search results in video</h2>
+                <h4>Top video on search @Ayumi Anime</h4>
+                <h2>Your Search results: <?=$search ?></h2>
             </div>
             <div class="result">
                 <div class="row">

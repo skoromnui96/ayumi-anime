@@ -24,15 +24,6 @@ $this->params['breadcrumbs'][] = $this->title;
             // 'id',
             'name',
             //'slug',
-            [
-                'attribute' => 'show',
-                'format' => 'raw',
-                'value' => function($model){
-                    $translate =['1' => 'Да','0' => 'Нет'];
-                    return $translate[$model ->top_menu];
-                }
-            ],
-            'sort',
             ['class' => 'yii\grid\ActionColumn', 'template' => '{update} {delete}'],
         ],
     ]); ?>

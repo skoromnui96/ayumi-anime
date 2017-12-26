@@ -16,16 +16,14 @@ use dvizh\certificate\widgets\CertificateWidget;
 
 /* @var $this yii\web\View */
 
-$this->title = 'Модули Dvizh';
-
 ?>
 
 <div class="breadcrumbs">
     <div class="container">
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="shop-card.html">Store</a></li>
-            <li><a href="#">Ordering</a></li>
+            <li><a href="<?=Url::to(['/site/index']) ?>">Home</a></li>
+            <li><a href="<?=Url::to(['/store/card-view']) ?>">Store</a></li>
+            <li>Ordering</li>
         </ul>
     </div>
 </div>

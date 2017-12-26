@@ -12,7 +12,8 @@ use backend\widgets\customService;
 
 /* @var $this yii\web\View */
 
-$this->title = 'List View';
+$this->title = 'Shop';
+$this->params['breadcrumbs'][] = $this->title;
 
 ?>
 <section class="s-shop">

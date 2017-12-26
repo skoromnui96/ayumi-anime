@@ -30,7 +30,7 @@ class Page extends \yii\db\ActiveRecord
     {
         return [
             [[ 'name', 'text'], 'required'],
-            [['text','show_page', 'template'], 'string'],
+            [['text','show_page',], 'string'],
             [['slug', 'name'], 'string', 'max' => 255],
         ];
     }

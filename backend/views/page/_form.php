@@ -21,7 +21,7 @@ use yii\helpers\Url;
     </div>
 
     <div class="row">
-        <div class="col-xs-12 col-md-6">
+        <div class="col-md-12">
             <?= $form->field($model, 'text')->
                 widget(Widget::className(), [
                     'settings' => [
@@ -41,10 +41,10 @@ use yii\helpers\Url;
     </div>
 
     <div class="row">
-        <div class="col-xs-12 col-md-6">
+        <div class="col-md-6">
             <?= $form->field($model, 'slug')->textInput(['maxlength' => true]) ?>
         </div>
-        <div class="col-xs-12 col-md-6">
+        <div class="col-md-12">
             <?= $form->field($model, 'show_page')->checkbox(['maxlength' => true]) ?>
         </div>
 
@@ -53,7 +53,7 @@ use yii\helpers\Url;
 
 
     <div class="form-group">
-        <?= Html::submitButton('Сохранить', ['class' => 'btn btn-success']) ?>
+        <?= Html::submitButton('Save', ['class' => 'btn btn-success']) ?>
     </div>
 
     <?php ActiveForm::end(); ?>

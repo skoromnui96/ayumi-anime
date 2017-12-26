@@ -5,6 +5,8 @@ use yii\helpers\Html;
 use yii\helpers\Url;
 use yii\widgets\LinkPager;
 
+$this->title = 'Photos';
+$this->params['breadcrumbs'][] = $this->title;
 ?>
 <section class="s-gallery">
     <div class="container">

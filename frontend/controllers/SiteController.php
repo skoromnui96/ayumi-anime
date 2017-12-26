@@ -2,9 +2,11 @@
 namespace frontend\controllers;
 
 use common\models\Slider;
+use common\models\Subscribe;
 use common\models\TopVideos;
 use common\models\Video;
 use Yii;
+use yii\helpers\Html;
 use yii\web\Controller;
 use dvizh\shop\models\Category;
 use dvizh\shop\models\Product;
@@ -126,5 +128,24 @@ class SiteController extends Controller
     public function actionAbout()
     {
         return $this->render('about');
+    }
+
+    public function actionSubscribe(){
+        $model = new Subscribe();
+        if ($model->load(Yii::$app->request->post()) && $model->validate()){
+            $email = Html::encode($model->email);
+            $model->email = $email;
+            $model->addtime = (string) time();
+            if ($model->save()) {
+                Yii::$app->response->refresh();
+                Yii::$app->getSession()->setFlash('success', 'Subscribe success');
+                return $this->redirect('/site/index#s-subscribe');
+            }
+        } else {
+            Yii::$app->response->refresh();
+            Yii::$app->getSession()->setFlash('error', 'Email address already exists or has not been entered correctly');
+            return $this->redirect('/site/index#s-subscribe');
+        }
+        exit;
     }
 }

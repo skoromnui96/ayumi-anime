@@ -1,5 +1,6 @@
 <?php
 
+use common\widgets\SubscribeWidget;
 use dvizh\cart\widgets\BuyButton;
 use yii\bootstrap\Html;
 use yii\helpers\Url;
@@ -115,7 +116,7 @@ use yii\helpers\Url;
     'topVideos' => $topVideos,
 ]) ?>
 
-<section class="s-subscribe">
+<section class="s-subscribe" id="s-subscribe">
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-sm-6 col-xs-12">
@@ -134,10 +135,7 @@ use yii\helpers\Url;
                 <div class="subscribe-us">
                     <h3>Subscribe for a monthly roundup of best video</h3>
                     <p>Don't worry, we hate spam too - that's why we only send out monthly emails.</p>
-                    <form action="#" class="subscribe-form">
-                        <input type="email" placeholder="Email address...">
-                        <input type="submit" value="Subscribe">
-                    </form>
+                    <?= SubscribeWidget::widget() ?>
                 </div>
             </div>
         </div>

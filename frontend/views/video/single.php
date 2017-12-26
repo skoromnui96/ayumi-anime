@@ -3,6 +3,9 @@
 use dvizh\cart\widgets\BuyButton;
 use yii\helpers\Url;
 
+$this->title = 'Erotic Videos'. ' ' . $model->name;
+$this->params['breadcrumbs'][] = ['label' => 'Erotic Videos', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => $model->name,  $model->id];
 ?>
 
 <section class="s-video-inside">
@@ -27,9 +30,15 @@ use yii\helpers\Url;
                         <span class="pubdate"><i class="fa fa-calendar-o" aria-hidden="true"></i> <?=$model->getDate() ?></span>
                         <p class="title-text"><?=$model->description ?></p>
                         <ul class="rate">
+                            <form action="<?=Url::to(['video/like']) ?>">
                             <li class="views"><i class="fa fa-eye" aria-hidden="true"></i> <?=$model->views ?> views</li>
-                            <li><button class="rate-button" value="like" id="like"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> <span id="counter-like"><?=$model->like ?></span></button></li>
+                            <li><button class="rate-button" value="like" name="like" id="like">
+                                    <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                                    <span id="counter-like"><?=$model->like ?></span>
+                                </button>
+                            </li>
                             <li><button class="rate-button" id="dislike"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i> <span id="counter-dislike">0</span></button></li>
+                            </form>
                         </ul>
                         <ul class="price">
                             <li class="old">$<?=$model->old_price ?></li>
