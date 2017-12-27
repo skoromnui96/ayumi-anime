@@ -33,13 +33,13 @@ use common\models\user\UserProfile;
             <?php echo $form->field($profile, 'gender')->dropDownlist([
                 // UserProfile::GENDER_FEMALE => Yii::t('backend', 'Female'),
                 // UserProfile::GENDER_MALE => Yii::t('backend', 'Male')
-                UserProfile::GENDER_FEMALE => 'Женский',
-                UserProfile::GENDER_MALE => 'Мужской'
+                UserProfile::GENDER_FEMALE => 'Female',
+                UserProfile::GENDER_MALE => 'Male'
             ]) ?>
         <?php } ?>
 
         <div class="form-group">
-            <?php echo Html::submitButton('Сохранить', ['class' => 'btn btn-primary', 'name' => 'signup-button']) ?>
+            <?php echo Html::submitButton('Save', ['class' => 'btn btn-primary', 'name' => 'signup-button']) ?>
         </div>
     <?php ActiveForm::end(); ?>
 

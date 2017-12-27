@@ -58,13 +58,13 @@ class PhotoCategory extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'parent_id' => 'Родительская категория',
-            'name' => 'Имя категории',
-            'slug' => 'Сео имя',
-            'text' => 'Описание',
-            'image' => 'Картинка',
-            'sort' => 'Сортировка',
-            'description' => 'Описание',
+            'parent_id' => 'Main category',
+            'name' => 'Category name',
+            'slug' => 'Seo title',
+            'text' => 'Text',
+            'image' => 'Image',
+            'sort' => 'Sort',
+            'description' => 'Description',
         ];
     }
 

@@ -19,6 +19,10 @@ use yii\widgets\ActiveForm;
         <?= $form->field($model, 'status')->dropDownList([ '0' => 'Disallow', '1' => 'Allow']) ?>
     </div>
 
+    <div class="col-md-6">
+        <?= $form->field($model, 'link')->textInput() ?>
+    </div>
+
     <div class="col-md-12">
         <?= Gallery::widget(
             [

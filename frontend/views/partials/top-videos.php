@@ -10,7 +10,13 @@
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <article>
                         <div class="video-wrapper">
+                            <?php if (!empty($top->link)): ?>
+                            <a href="<?=$top->link?>" target="_blank">
                             <img src="<?=$top->getImage()->getUrl(); ?>" alt="">
+                            </a>
+                            <?php else: ?>
+                                <img src="<?=$top->getImage()->getUrl(); ?>" alt="">
+                            <?php endif; ?>
                         </div>
                     </article>
                 </div>

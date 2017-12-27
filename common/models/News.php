@@ -4,8 +4,9 @@ namespace common\models;
 
 use Yii;
 use yii\data\Pagination;
+use yii\db\ActiveRecord;
 
-class News extends \yii\db\ActiveRecord
+class News extends ActiveRecord
 {
     public function behaviors()
     {
@@ -85,26 +86,6 @@ class News extends \yii\db\ActiveRecord
     public function viewedCounter()
     {
         $this->views += 1;
-        return $this->save(false);
-    }
-
-    public function allow() {
-        $this->status = 1;
-        return $this->save(false);
-    }
-
-    public function disallow() {
-        $this->status = 0;
-        return $this->save(false);
-    }
-
-    public function stories() {
-        $this->on_page = 1;
-        return $this->save(false);
-    }
-
-    public function none_stories() {
-        $this->on_page = 0;
         return $this->save(false);
     }
 

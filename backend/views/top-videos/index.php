@@ -27,6 +27,7 @@ $this->params['breadcrumbs'][] = $this->title;
             ['class' => 'yii\grid\SerialColumn'],
 
             'id',
+            'link',
             ['label' => 'Image', 'content' => function($model){
                 return "<img src='".$model -> getImage()->getURL("100x")."'/>";
             } ],

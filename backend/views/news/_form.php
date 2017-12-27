@@ -31,7 +31,7 @@ use yii\helpers\Url;
         <?= $form->field($model, 'text')->
                 widget(Widget::className(), [
                     'settings' => [
-                        'lang' => 'ru',
+                        'lang' => 'en',
                         'minHeight' => 200,
                         'imageUpload' => Url::to(['/site/image-upload']),
                         'imageManagerJson' => Url::to(['/site/images-get']),
@@ -45,7 +45,7 @@ use yii\helpers\Url;
         ?>
 
         <div class="col-md-12">
-            <?= $form->field($model, 'on_page')->checkbox([ '1' => 'checked', '0' => 'uncheck']) ?>
+            <?= $form->field($model, 'on_page')->checkbox() ?>
         </div>
 
         <div class="col-md-12">

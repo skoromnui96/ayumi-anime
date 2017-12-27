@@ -12,7 +12,7 @@ use yii\helpers\Url;
 
 <div class="page-form">
 
-    <?php $form = ActiveForm::begin(); ?>
+    <?php $form = ActiveForm::begin(['options' => ['enctype'=>'multipart/form-data']]); ?>
 
     <div class="row">
         <div class="col-xs-12 col-md-4">
@@ -22,10 +22,30 @@ use yii\helpers\Url;
 
     <div class="row">
         <div class="col-md-12">
+            <?= $form->field($model, 'title')->
+            widget(Widget::className(), [
+                'settings' => [
+                    'lang' => 'en',
+                    'minHeight' => 200,
+                    'imageUpload' => Url::to(['/site/image-upload']),
+                    'imageManagerJson' => Url::to(['/site/images-get']),
+                    'plugins' => [
+                        'clips',
+                        'fullscreen',
+                        'imagemanager',
+                    ]
+                ]
+            ]);
+            ?>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
             <?= $form->field($model, 'text')->
                 widget(Widget::className(), [
                     'settings' => [
-                        'lang' => 'ru',
+                        'lang' => 'en',
                         'minHeight' => 200,
                         'imageUpload' => Url::to(['/site/image-upload']),
                         'imageManagerJson' => Url::to(['/site/images-get']),
@@ -45,7 +65,7 @@ use yii\helpers\Url;
             <?= $form->field($model, 'slug')->textInput(['maxlength' => true]) ?>
         </div>
         <div class="col-md-12">
-            <?= $form->field($model, 'show_page')->checkbox(['maxlength' => true]) ?>
+            <?= $form->field($model, 'show_page')->checkbox() ?>
         </div>
 
     </div>

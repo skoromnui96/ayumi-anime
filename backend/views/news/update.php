@@ -5,10 +5,10 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model common\models\News */
 
-$this->title = 'Редактировать Новость: ' . $model->name;
-$this->params['breadcrumbs'][] = ['label' => 'Новости', 'url' => ['index']];
+$this->title = 'Edit News: ' . $model->name;
+$this->params['breadcrumbs'][] = ['label' => 'News', 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->name, 'url' => ['view', 'id' => $model->id]];
-$this->params['breadcrumbs'][] = 'Редактировать';
+$this->params['breadcrumbs'][] = 'Edit';
 ?>
 <div class="news-update">
 

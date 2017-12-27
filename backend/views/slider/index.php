@@ -8,13 +8,15 @@ use yii\grid\GridView;
 /* @var $searchModel common\models\search\SliderSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Слайдер';
+$this->title = 'Banner';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="slider-index">
 
+    <h1><?= Html::encode($this->title) ?></h1>
+
     <p>
-        <?= Html::a('Добавить слайдер', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Add banner', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?= GridView::widget([

@@ -1,6 +1,7 @@
 <?php
 
 use yii\helpers\Html;
+use yii\helpers\Url;
 use yii\widgets\ActiveForm;
 use vova07\imperavi\Widget;
 
@@ -31,10 +32,10 @@ use vova07\imperavi\Widget;
         <?= $form->field($model, 'short_text')->
         widget(Widget::className(), [
             'settings' => [
-                'lang' => 'ru',
+                'lang' => 'en',
                 'minHeight' => 100,
-                //'imageUpload' => Url::to(['/site/image-upload']),
-                //'imageManagerJson' => Url::to(['/site/images-get']),
+//                'imageUpload' => Url::to(['/site/image-upload']),
+//                'imageManagerJson' => Url::to(['/site/images-get']),
                 'plugins' => [
                     'clips',
                     'fullscreen',
@@ -58,7 +59,7 @@ use vova07\imperavi\Widget;
         <br />
 
         <div class="form-group">
-            <?= Html::submitButton('Сохранить', ['class' => 'btn btn-success']) ?>
+            <?= Html::submitButton('Save', ['class' => 'btn btn-success']) ?>
         </div>
     </div>
 

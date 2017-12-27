@@ -19,7 +19,7 @@ use dvizh\seo\widgets\SeoForm;
 
     <?= $form->field($model, 'name')->textInput() ?>
 
-    <?= $form->field($model, 'slug')->textInput(['placeholder' => 'Не обязательно']) ?>
+    <?= $form->field($model, 'slug')->textInput(['placeholder' => 'Not necessary']) ?>
 
     <?= $form->field($model, 'sort')->textInput() ?>
 
@@ -31,7 +31,8 @@ use dvizh\seo\widgets\SeoForm;
                 'minHeight' => 400,
                 'maxHeight' => 400,
                 'buttonSource' => true,
-                'imageUpload' => Url::toRoute(['tools/upload-imperavi'])
+                'imageUpload' => Url::to(['/site/image-upload']),
+                'imageManagerJson' => Url::to(['/site/images-get']),
             ]
         ]
     ) ?>
@@ -39,8 +40,8 @@ use dvizh\seo\widgets\SeoForm;
     <?= $form->field($model, 'parent_id')
         ->widget(Select2::classname(), [
             'data' => PhotoCategory::buildTextTree(null, 1, [$model->id]),
-            'language' => 'ru',
-            'options' => ['placeholder' => 'Выберите категорию ...'],
+            'language' => 'en',
+            'options' => ['placeholder' => 'Select category ...'],
             'pluginOptions' => [
                 'allowClear' => true
             ],
@@ -54,7 +55,7 @@ use dvizh\seo\widgets\SeoForm;
     ]); ?>
 
     <div class="form-group">
-        <?= Html::submitButton($model->isNewRecord ? 'Создать' : 'Изменить', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>
+        <?= Html::submitButton($model->isNewRecord ? 'Create' : 'Update', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>
     </div>
 
     <?php ActiveForm::end(); ?>

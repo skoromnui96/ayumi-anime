@@ -82,6 +82,12 @@ use yii\bootstrap\Html;
                                 'icon' => 'fa fa-book',
                                 'url' => ['photo-category/index', 'view' => 'list'],
                             ],
+                            [
+                                'label' => 'Pages',
+                                'icon' => 'fa fa-file-text',
+                                'url' => ['page/index'],
+                            ],
+
                         ]
                     ],
                     [
@@ -113,9 +119,6 @@ use yii\bootstrap\Html;
                         'visible' => Yii::$app->user->can('superadmin'),
                         'items' => [
                             ['label' => 'Пользователи', 'url' => ['/user/admin/index']],
-                            ['label' => 'Слайдер', 'url' => ['/slider/index']],
-                            ['label' => 'Новости', 'url' => ['/news/index']],
-                            ['label' => 'Страницы', 'url' => ['/page/index']],
                         ],
                     ],
                     [
@@ -132,8 +135,8 @@ use yii\bootstrap\Html;
                             ['label' => 'Настройки сайта', 'url' => ['/settings/default/index']],
                         ]
                     ],
-                    ['label' => 'Gii', 'icon' => 'fa fa-file-code-o', 'url' => ['/gii'],],
-                    ['label' => 'Debug', 'icon' => 'fa fa-dashboard', 'url' => ['/debug'],],
+                    ['label' => 'Gii', 'visible' => Yii::$app->user->can('superadmin'), 'icon' => 'fa fa-file-code-o', 'url' => ['/gii'],],
+                    ['label' => 'Debug', 'visible' => Yii::$app->user->can('superadmin'), 'icon' => 'fa fa-dashboard', 'url' => ['/debug'],],
 
                 ],
             ]

@@ -33,7 +33,7 @@ $this->title = Yii::t('user', 'Sign in');
     <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3">
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title">Авторизация</h3>
+                <h3 class="panel-title">Login</h3>
             </div>
             <div class="panel-body">
                 <?php $form = ActiveForm::begin([
@@ -94,7 +94,7 @@ $this->title = Yii::t('user', 'Sign in');
                         ['inputOptions' => [
                             'class' => 'form-control',
                             'tabindex' => '2',
-                            'placeholder' => 'пароль'
+                            'placeholder' => 'password'
                             ]
                         ])
                         ->passwordInput()

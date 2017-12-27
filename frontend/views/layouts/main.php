@@ -64,14 +64,16 @@ AppAsset::register($this);
                             <li><a href="<?=Url::toRoute(['store/card-view']);?>">Store</a> <?= CartInformer::widget(['htmlTag' => 'span', 'offerUrl' => '/?r=cart', 'text' => '{c}', 'class' => 'count']); ?></li>
                             <li class="show-more">
                                 <a href="#">MORE</a>
+                                <?php $pages = Page::getPages() ?>
+                                <?php if (!empty($pages)): ?>
                                 <div class="more">
                                     <ul>
-                                        <?php $pages = Page::find()->all() ?>
                                         <?php foreach ($pages as $page): ?>
                                             <li><a href="<?=Url::to(['/page/index', 'id' => $page->id]) ?>"><?=$page->name?></a></li>
                                         <?php endforeach; ?>
                                     </ul>
                                 </div>
+                                <?php endif; ?>
                             </li>
                         </ul>
                         <ul class="search-nav">

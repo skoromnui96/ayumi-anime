@@ -3,6 +3,7 @@
 namespace common\models;
 
 use Yii;
+use yii\db\ActiveRecord;
 
 /**
  * This is the model class for table "top_videos".
@@ -11,7 +12,7 @@ use Yii;
  * @property int $sort
  * @property int $status
  */
-class TopVideos extends \yii\db\ActiveRecord
+class TopVideos extends ActiveRecord
 {
     function behaviors()
     {
@@ -36,6 +37,7 @@ class TopVideos extends \yii\db\ActiveRecord
     {
         return [
             [['status'], 'integer'],
+            [['link'], 'string', 'max' => 255]
         ];
     }
 
@@ -47,21 +49,12 @@ class TopVideos extends \yii\db\ActiveRecord
         return [
             'id' => 'ID',
             'status' => 'Status',
+            'link' => 'Link'
         ];
     }
 
     public static function getTopVideos() {
         $topVideos = self::find()->where(['status'=>1])->all();
         return $topVideos;
-    }
-
-    public function allow() {
-        $this->status = 1;
-        return $this->save(false);
-    }
-
-    public function disallow() {
-        $this->status = 0;
-        return $this->save(false);
     }
 }

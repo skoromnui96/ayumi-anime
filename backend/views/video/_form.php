@@ -1,7 +1,9 @@
 <?php
 
 use dvizh\gallery\widgets\Gallery;
+use vova07\imperavi\Widget;
 use yii\helpers\Html;
+use yii\helpers\Url;
 use yii\widgets\ActiveForm;
 
 /* @var $this yii\web\View */
@@ -18,11 +20,39 @@ use yii\widgets\ActiveForm;
     </div>
 
     <div class="col-md-12">
-    <?= $form->field($model, 'description')->textarea(['maxlength' => true]) ?>
+            <?= $form->field($model, 'description')->
+            widget(Widget::className(), [
+                'settings' => [
+                    'lang' => 'en',
+                    'minHeight' => 200,
+                    'imageUpload' => Url::to(['/site/image-upload']),
+                    'imageManagerJson' => Url::to(['/site/images-get']),
+                    'plugins' => [
+                        'clips',
+                        'fullscreen',
+                        'imagemanager',
+                    ]
+                ]
+            ]);
+            ?>
     </div>
 
     <div class="col-md-12">
-    <?= $form->field($model, 'main_text')->textarea(['rows' => 6]) ?>
+        <?= $form->field($model, 'main_text')->
+        widget(Widget::className(), [
+            'settings' => [
+                'lang' => 'en',
+                'minHeight' => 200,
+                'imageUpload' => Url::to(['/site/image-upload']),
+                'imageManagerJson' => Url::to(['/site/images-get']),
+                'plugins' => [
+                    'clips',
+                    'fullscreen',
+                    'imagemanager',
+                ]
+            ]
+        ]);
+        ?>
     </div>
 
     <div class="col-md-6">

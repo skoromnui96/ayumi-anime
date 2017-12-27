@@ -17,12 +17,12 @@ $this->title = 'Аккаунт';
 
     <?php // echo $form->field($model, 'email') ?>
 
-    <?php echo $form->field($model, 'password')->passwordInput()->label('Новый пароль') ?>
+    <?php echo $form->field($model, 'password')->passwordInput()->label('New password') ?>
 
-    <?php echo $form->field($model, 'password_confirm')->passwordInput()->label('Новый пароль еще раз') ?>
+    <?php echo $form->field($model, 'password_confirm')->passwordInput()->label('New password again') ?>
 
     <div class="form-group">
-        <?php echo Html::submitButton('Редактировать', ['class' => 'btn btn-primary']) ?>
+        <?php echo Html::submitButton('Edit', ['class' => 'btn btn-primary']) ?>
     </div>
 
     <?php ActiveForm::end(); ?>

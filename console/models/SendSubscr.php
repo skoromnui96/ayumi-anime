@@ -3,8 +3,9 @@ namespace console\models;
 use Yii;
 use common\models\Video;
 use common\models\Subscribe;
+use yii\db\ActiveRecord;
 
-class SendSubscr extends \yii\db\ActiveRecord
+class SendSubscr extends ActiveRecord
 {
     public static function tableName()
     {
@@ -29,7 +30,6 @@ class SendSubscr extends \yii\db\ActiveRecord
     }
 
     public function send(){
-        //В таблице send_subscr выбираем строку с самым большим id поста (последний пост по которому была рассылка)
         $query = $this->find()
             ->limit(1)
             ->orderBy('video_id DESC')
@@ -60,9 +60,11 @@ class SendSubscr extends \yii\db\ActiveRecord
         if ($max_count > 10) $max_count = 10;
 
         foreach ($subscriptions as $key => $sub){
+
             $subscriber_id = $sub->id;
 
             $this->sendSub($sub->email, $last_subscribe->video_id);
+
             if ($key >= ($max_count-1)) {
                 $send_subscr = self::findOne($last_subscribe->id);
                 $send_subscr->subscriber_id = $subscriber_id;
@@ -70,6 +72,7 @@ class SendSubscr extends \yii\db\ActiveRecord
                 break;
             }
         }
+
         if(count($subscriptions) <= $max_count)    {
             $send_subscr = self::findOne($last_subscribe->id);
             $send_subscr->end = 1;
@@ -77,21 +80,22 @@ class SendSubscr extends \yii\db\ActiveRecord
         }
     }
 
-    public function sendSub($email,$video_id){
-        $home_url = 'http://ayumi-anime.com';
+    public function sendSub($email,$post_id){
+        $home_url = 'http://ayumi-anime.dev';
         $link = 'video/single?id=';
-        $full_link = $link.$video_id;
-        $url = $full_link;
+        $url =  $link.$post_id;
         $post_url = $home_url.'/'.$url;
-        $msg_html  = "<html><body style='font-family:Arial,sans-serif;'>";
-        $msg_html .= "<h3 style='font-weight:bold;border-bottom:1px dotted #ccc;'>Hello! You are subscribed to receive notifications of new videos on the site " . $home_url . "</h3>\r\n";
-        $msg_html .= "<p><strong>We are reporting that a new video has been released. To view it go to </strong><a href='". $post_url ."'>$post_url</a></p>\r\n";
-        $msg_html .= "</body></html>";
+        $msg = "Hello! You are subscribed to send notifications of new videos on the site $home_url. We inform you that a new video has been posted. For watching go to $post_url";
+//        $msg_html  = "<html><body style='font-family:Arial,sans-serif;'>";
+//        $msg_html .= "<h3 style='font-weight:bold;border-bottom:1px dotted #ccc;'>Здравствуйте! Вы подписаны на рассылку уведомлений о новых статьях по WEB-программированию на сайте " . $home_url . "</h3>\r\n";
+//        $msg_html .= "<p><strong>Сообщаем, что опубликована новая статья. Для просмотра перейдите на </strong><a href='". $post_url ."'>$post_url</a></p>\r\n";
+//        $msg_html .= "</body></html>";
         Yii::$app->mailer->compose()
             ->setFrom('alexskoromnui96@yandex.com')
             ->setTo($email)
-            ->setSubject('Notification of a new video')
-            ->setHtmlBody($msg_html)
+            ->setSubject("Notification of a new video on the site $home_url.")
+            ->setTextBody($msg)
+//            ->setHtmlBody($msg_html)
             ->send();
     }
 }

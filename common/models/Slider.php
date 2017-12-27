@@ -49,10 +49,10 @@ class Slider extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'name' => 'Название',
-            'url' => 'Ссылка',
-            'short_text' => 'Краткое описание',
-            'sort' => 'Порядок',
+            'name' => 'Name',
+            'url' => 'Link',
+            'short_text' => 'Short description',
+            'sort' => 'Sort',
         ];
     }
 

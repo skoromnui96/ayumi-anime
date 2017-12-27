@@ -7,7 +7,7 @@ use kartik\grid\GridView;
 
 
 
-$this->title = 'История заказов';
+$this->title = 'History of orders';
 $this->params['breadcrumbs'][] = $this->title;
 
 

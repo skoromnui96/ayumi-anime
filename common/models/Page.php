@@ -3,8 +3,9 @@
 namespace common\models;
 
 use Yii;
+use yii\db\ActiveRecord;
 
-class Page extends \yii\db\ActiveRecord
+class Page extends ActiveRecord
 {
     public function behaviors()
     {
@@ -29,9 +30,10 @@ class Page extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [[ 'name', 'text'], 'required'],
-            [['text','show_page',], 'string'],
-            [['slug', 'name'], 'string', 'max' => 255],
+            [[ 'name', 'text', 'name'], 'required'],
+            [['text', 'title'], 'string'],
+            [['show_page'], 'integer'],
+            [['slug', 'name'], 'string','max' => 255],
         ];
     }
 
@@ -42,10 +44,16 @@ class Page extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'show_page' => 'Показывать в главном меню',
-            'slug' => 'SEO-имя',
-            'name' => 'Заголовок',
-            'text' => 'Текст',
+            'show_page' => 'Show in the main menu',
+            'slug' => 'SEO name',
+            'name' => 'Menu name',
+            'text' => 'Text',
+            'title' => 'Title'
         ];
+    }
+
+    public static function getPages()
+    {
+        return self::find()->where(['show_page' => 1])->all();
     }
 }

@@ -20,8 +20,9 @@ class m170317_090234_page extends Migration
             '{{%page}}',
             [
                 'id'=> $this->primaryKey(11),
+                'title'=> $this->text()->notNull(),
                 'name'=> $this->string(255)->notNull(),
-                'show_page'=> $this->string()->notNull()->defaultValue('No'),
+                'show_page'=> $this->integer()->notNull()->defaultValue(0),
                 'slug'=> $this->string(255)->notNull(),
                 'text'=> $this->text()->notNull(),
             ],$tableOptions

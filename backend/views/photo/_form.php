@@ -25,7 +25,7 @@ use yii\widgets\ActiveForm;
             <?= $form->field($model, 'category_id')
                 ->widget(Select2::classname(), [
                     'data' => PhotoCategory::buildTextTree(),
-                    'language' => 'ru',
+                    'language' => 'en',
                     'options' => ['placeholder' => 'Select category ...'],
                     'pluginOptions' => [
                         'allowClear' => true
@@ -38,7 +38,7 @@ use yii\widgets\ActiveForm;
                 ->label('Other Categories')
                 ->widget(Select2::classname(), [
                     'data' => PhotoCategory::buildTextTree(),
-                    'language' => 'ru',
+                    'language' => 'en',
                     'options' => ['multiple' => true, 'placeholder' => 'Select other categories ...'],
                     'pluginOptions' => [
                         'allowClear' => true

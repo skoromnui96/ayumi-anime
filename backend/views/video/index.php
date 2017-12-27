@@ -28,7 +28,9 @@ $this->params['breadcrumbs'][] = $this->title;
 
             'id',
             'name',
-            'description',
+            ['label' => 'Video preview', 'content' => function($model){
+                return "<img src='".$model -> getImage()->getURL("100x")."'/>";
+            } ],
             'views',
             //'like',
             //'unlike',

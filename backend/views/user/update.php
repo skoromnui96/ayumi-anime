@@ -6,9 +6,9 @@ use yii\helpers\Html;
 /* @var $model common\models\User */
 /* @var $roles yii\rbac\Role[] */
 
-$this->title = 'Изменить пользователя' . ' ' . $model->username;
-$this->params['breadcrumbs'][] = ['label' => 'Пользователи', 'url' => ['index']];
-$this->params['breadcrumbs'][] = ['label'=>'Изменить'];
+$this->title = 'Edit user' . ' ' . $model->username;
+$this->params['breadcrumbs'][] = ['label' => 'Users', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label'=>'Edit'];
 ?>
 <div class="user-update">
 

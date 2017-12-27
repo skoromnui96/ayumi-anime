@@ -5,6 +5,7 @@ use dvizh\cart\widgets\BuyButton;
 use yii\bootstrap\Html;
 use yii\helpers\Url;
 
+$this->title = 'Ayumi Anime Web site';
 ?>
 
 <section class="s-main-heading">

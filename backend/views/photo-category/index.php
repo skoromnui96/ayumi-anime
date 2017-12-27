@@ -16,7 +16,7 @@ $this->params['breadcrumbs'][] = $this->title;
 BackendAsset::register($this);
 ?>
 <div class="category-index">
-
+    <h1><?= Html::encode($this->title) ?></h1>
     <div class="row">
         <div class="col-md-2">
             <?= Html::a('Create Photo Category', ['create'], ['class' => 'btn btn-success']) ?>
@@ -39,7 +39,7 @@ BackendAsset::register($this);
     <br style="clear: both;"></div>
 
 <ul class="nav nav-pills">
-    <li role="presentation" <?php if(yii::$app->request->get('view') == 'list') echo ' class="active"'; ?>><a href="<?=Url::toRoute(['photo-category/index', 'view' => 'list']);?>">Списком</a></li>
+    <li role="presentation" <?php if(yii::$app->request->get('view') == 'list') echo ' class="active"'; ?>><a href="<?=Url::toRoute(['photo-category/index', 'view' => 'list']);?>">List</a></li>
 </ul>
 
 <br style="clear: both;">
@@ -69,7 +69,7 @@ if(yii::$app->request->get('view') == 'list') {
                     $searchModel,
                     'parent_id',
                     PhotoCategory::buildTextTree(),
-                    ['class' => 'form-control', 'prompt' => 'Категория']
+                    ['class' => 'form-control', 'prompt' => 'Category']
                 ),
                 'value' => 'parent.name'
             ],

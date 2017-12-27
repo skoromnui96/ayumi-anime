@@ -19,6 +19,7 @@ class TopVideosSearch extends TopVideos
     {
         return [
             [['id', 'status'], 'integer'],
+            [['link'], 'string']
         ];
     }
 
@@ -60,6 +61,7 @@ class TopVideosSearch extends TopVideos
         $query->andFilterWhere([
             'id' => $this->id,
             'status' => $this->status,
+            'link' => $this->link,
         ]);
 
         return $dataProvider;

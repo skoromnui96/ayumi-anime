@@ -21,7 +21,8 @@ class m171218_101337_create_top_videos_table extends Migration
             '{{%top_videos}}',
             [
                 'id'=> $this->primaryKey(11),
-                'status' => $this->integer(1)->null()->defaultValue(0),
+                'status' => $this->integer(1)->notNull()->defaultValue(0),
+                'link' => $this->string(),
             ],$tableOptions
         );
         $this->createIndex('id','{{%top_videos}}','id',false);

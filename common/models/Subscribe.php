@@ -13,7 +13,7 @@ class Subscribe extends ActiveRecord{
             [['email'], 'required'],
             [['email'], 'email'],
             [['email'], 'trim'],
-            [['email'], 'unique', 'message' => 'Email already exist'],
+            [['email'], 'unique'],
             [['email', 'addtime'], 'string', 'max' => 255],
         ];
     }

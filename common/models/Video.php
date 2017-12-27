@@ -138,11 +138,6 @@ class Video extends ActiveRecord implements CartElement
         return $this->save(false);
     }
 
-    public function like() {
-        $this->like += 1;
-        return $this->save(false);
-    }
-
     public static function getRelated() {
         return self::find()->orderBy('id desc')->limit(3)->offset(1)->all();
     }
@@ -160,7 +155,7 @@ class Video extends ActiveRecord implements CartElement
     }
     public function getCartOptions()
     {
-        //return ['Цвет' => ['Красный', 'Белый', 'Синий'], 'Размер' => ['XXL']];
+        return '';
     }
     public function getProduct()
     {

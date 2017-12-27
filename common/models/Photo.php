@@ -90,11 +90,6 @@ class Photo extends ActiveRecord
         return Yii::$app->formatter->asDate($this->date, 'd.MM.yyyy');
     }
 
-    public function Like()
-    {
-        $this->like += 1;
-        return $this->save(false);
-    }
 
     public function getCategory() {
         return $this->hasOne(PhotoCategory::className(), ['id' => 'category_id']);
