@@ -17,6 +17,36 @@ return [
         ],
     ],
     'components' => [
+        'urlManager' => [
+            'enablePrettyUrl' => true,
+            'showScriptName' => false,
+            'rules' => [
+                '/' => '/site/index',
+                'erotic-videos' => '/video/index',
+                'erotic-photos' => '/photo/index',
+                'news' => '/news/index',
+                'store' => '/store/card-view',
+                'storе' => '/store/list-view',
+                [
+                    'pattern' => 'page/<id>',
+                    'route' => 'page/index',
+                ],
+                [
+                    'pattern' => 'erotic-videos/<slug>',
+                    'route' => 'video/single',
+                ],
+                [
+                    'pattern' => 'news/<slug>',
+                    'route' => 'news/single',
+                ],
+                [
+                    'pattern' => '<slug>',
+                    'route' => 'page/index',
+                ],
+
+
+            ],
+        ],
         'formatter' => [
             'class' => 'yii\i18n\Formatter',
             'defaultTimeZone' => 'America/Los_Angeles',

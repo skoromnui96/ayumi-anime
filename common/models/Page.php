@@ -56,4 +56,13 @@ class Page extends ActiveRecord
     {
         return self::find()->where(['show_page' => 1])->all();
     }
+
+    public static function findModelBySlug($slug)
+    {
+        if (($model = Page::findOne(['slug' => $slug])) !== null) {
+            return $model;
+        } else {
+            throw new NotFoundHttpException();
+        }
+    }
 }

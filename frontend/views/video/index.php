@@ -86,7 +86,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 <div class="col-md-4 col-sm-4">
                     <article class="video-product">
                         <div class="video-wrapper">
-                            <a href="<?= Url::to(['video/single', 'id' => $item->id ]); ?>">
+                            <a href="<?= Url::to(['video/single', 'slug' => $item->slug]); ?>">
                                 <span class="topline">
                                     <span class="hd">HD</span>
                                 </span>
@@ -100,7 +100,7 @@ $this->params['breadcrumbs'][] = $this->title;
                             </a>
                         </div>
                         <div class="video-description">
-                            <h4 class="name"><a href="<?= Url::to(['video/single', 'id' => $item->id ]); ?>"><?=$item->name ?></a></h4>
+                            <h4 class="name"><a href="<?= Url::to(['video/single', 'slug' => $item->slug]); ?>"><?=$item->name ?></a></h4>
                             <div class="video-info">
                                 <ul>
                                     <li class="old-price">$<?=$item->old_price ?></li>

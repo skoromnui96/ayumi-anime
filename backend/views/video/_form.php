@@ -67,6 +67,8 @@ use yii\widgets\ActiveForm;
         <?= $form->field($video, 'video')->fileInput() ?>
     </div>
 
+    <?= $form->field($model, 'slug')->textInput(['maxlength' => true])->label(false)->hiddenInput() ?>
+
     <div class="col-md-12">
     <?= Gallery::widget(
         [

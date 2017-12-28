@@ -5,6 +5,7 @@ namespace common\models;
 use Yii;
 use yii\data\Pagination;
 use yii\db\ActiveRecord;
+use yii\web\NotFoundHttpException;
 
 class News extends ActiveRecord
 {
@@ -97,5 +98,14 @@ class News extends ActiveRecord
     public static function getPosts()
     {
         return self::find()->orderBy('views desc')->limit(4)->all();
+    }
+
+    public static function findModelBySlug($slug)
+    {
+        if (($model = News::findOne(['slug' => $slug])) !== null) {
+            return $model;
+        } else {
+            throw new NotFoundHttpException();
+        }
     }
 }

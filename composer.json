@@ -32,7 +32,8 @@
         "2amigos/yii2-editable-widget": "^1.0@dev",
         "mitrm/yii2-likes-module": "dev-master",
         "maxmirazh33/yii2-uploadable-file": "*",
-        "pistol88/yii2-liqpay": "*"
+        "pistol88/yii2-liqpay": "*",
+        "vova07/yii2-imperavi-widget": "*"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",

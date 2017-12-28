@@ -43,7 +43,7 @@ $this->params['breadcrumbs'][] = ['label' => $news->name,  $news->id];
                 </div>
                 </div>
             </div>
-            <?= $this->render('/partials/top-stories', [
+            <?= $this->render('/partials/popular-posts', [
                 'posts' => $posts,
             ]) ?>
         </div>

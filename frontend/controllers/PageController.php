@@ -9,8 +9,8 @@ use yii\web\Controller;
  */
 
 class PageController extends Controller {
-    public function actionIndex($id) {
-        $page = Page::findOne($id);
+    public function actionIndex($slug) {
+        $page = Page::findModelBySlug($slug);
         return $this->render('index', [
             'page' => $page
         ]);

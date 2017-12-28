@@ -32,8 +32,8 @@ class NewsController extends Controller {
         ]);
     }
 
-    public function actionSingle($id) {
-        $news = News::findOne($id);
+    public function actionSingle($slug) {
+        $news = News::findModelBySlug($slug);
         $posts = News::getPosts();
         $news->viewedCounter();
         return $this->render('single', [

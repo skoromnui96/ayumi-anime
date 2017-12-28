@@ -16,6 +16,7 @@ class m171221_101723_create_video_table extends Migration
             'id' => $this->primaryKey(),
             'name' => $this->string(),
             'description' => $this->string(255),
+            'slug'=> $this->string(255)->notNull(),
             'main_text' => $this->text(),
             'video' => $this->string(),
             'views' => $this->integer()->notNull()->defaultValue(0),

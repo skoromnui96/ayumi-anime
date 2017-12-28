@@ -32,6 +32,9 @@ class Video extends ActiveRecord implements CartElement
             'images' => [
                 'class' => 'dvizh\gallery\behaviors\AttachImages',
             ],
+            'slug' => [
+                'class' => 'Zelenin\yii\behaviors\Slug',
+            ],
             //other behaviors
         ];
     }
@@ -55,7 +58,7 @@ class Video extends ActiveRecord implements CartElement
             [['video'], 'file'],
             [['date'], 'date', 'format'=>'php:Y-m-d'],
             [['date'], 'default', 'value'=> date('Y-m-d')],
-            [['name', 'description',], 'string', 'max' => 255],
+            [['name', 'description', 'slug'], 'string', 'max' => 255],
         ];
     }
 
@@ -172,5 +175,14 @@ class Video extends ActiveRecord implements CartElement
 
     public static function getPopularVideos() {
         return self::find()->orderBy('views desc')->limit(3)->all();
+    }
+
+    public static function findModelBySlug($slug)
+    {
+        if (($model = Video::findOne(['slug' => $slug])) !== null) {
+            return $model;
+        } else {
+            throw new NotFoundHttpException();
+        }
     }
 }

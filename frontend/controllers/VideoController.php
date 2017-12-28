@@ -22,8 +22,8 @@ class VideoController extends Controller {
         ]);
     }
 
-    public function actionSingle($id) {
-        $model = Video::findOne($id);
+    public function actionSingle($slug) {
+        $model = Video::findModelBySlug($slug);
         $model->viewedCounter();
         $related = Video::getRelated();
         return $this->render('single', [

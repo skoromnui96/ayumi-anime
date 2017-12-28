@@ -50,17 +50,17 @@ AppAsset::register($this);
         <div class="container">
             <div class="row">
                 <div class="col-md-2 col-sm-12">
-                    <h2 class="logo"><a href="#adult-modal" data-fancybox="modal">LOGO</a></h2>
+                    <h2 class="logo"><a href="<?=Url::to(['site/index']) ?>">LOGO</a></h2>
                     <button class="menu-open"><i class="fa fa-bars" aria-hidden="true"></i></button>
                 </div>
                 <div class="col-md-9 col-sm-12 col-md-offset-1">
                     <nav class="main-navigation">
                         <ul class="nav-menu">
-                            <li><a href="<?= Url::to('/site/index') ?>">Home</a></li>
-                            <li><a href="<?= Url::to('/video/index') ?>">Videos</a></li>
-                            <li><a href="<?= Url::to('/photo/index') ?>">Photos</a></li>
-                            <li><a href="<?= Url::to('/broadcasts/index') ?>">Broadcasts</a></li>
-                            <li><a href="<?= Url::to('/news/index') ?>">BLOG</a></li>
+                            <li><a href="<?= Url::to(['/site/index']) ?>">Home</a></li>
+                            <li><a href="<?= Url::to(['/video/index']) ?>">Videos</a></li>
+                            <li><a href="<?= Url::to(['/photo/index']) ?>">Photos</a></li>
+                            <li><a href="<?= Url::to(['/broadcasts/index']) ?>">Broadcasts</a></li>
+                            <li><a href="<?= Url::to(['/news/index']) ?>">BLOG</a></li>
                             <li><a href="<?=Url::toRoute(['store/card-view']);?>">Store</a> <?= CartInformer::widget(['htmlTag' => 'span', 'offerUrl' => '/?r=cart', 'text' => '{c}', 'class' => 'count']); ?></li>
                             <li class="show-more">
                                 <a href="#">MORE</a>
@@ -69,7 +69,7 @@ AppAsset::register($this);
                                 <div class="more">
                                     <ul>
                                         <?php foreach ($pages as $page): ?>
-                                            <li><a href="<?=Url::to(['/page/index', 'id' => $page->id]) ?>"><?=$page->name?></a></li>
+                                            <li><a href="<?=Url::to(['/page/index', 'slug' => $page->slug]) ?>"><?=$page->name?></a></li>
                                         <?php endforeach; ?>
                                     </ul>
                                 </div>

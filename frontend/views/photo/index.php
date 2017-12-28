@@ -90,7 +90,6 @@ $this->params['breadcrumbs'][] = $this->title;
                             <h4 class="title"><?=$photo->title ?></h4>
                                 <div class="botline">
                                 <span class="pubdate"><i class="fa fa-calendar-o" aria-hidden="true"></i> <?=$photo->getDate() ?></span>
-                                <span class="likes"><button><i class="fa fa-gratipay" aria-hidden="true"></i> 6,456 likes</button></span>
                             </div>'>
                                 <img src="<?=$photo->getImage()->getUrl()?>" alt="" class="img-responsive">
                             </a>
